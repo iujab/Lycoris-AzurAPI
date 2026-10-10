@@ -57,8 +57,9 @@ jobs:
       - name: Commit and push if changed
         run: |
           git add data/
-          if git diff --cached --quiet; then
-            echo "No changes, skipping commit"
+          # version.json's generatedAt changes every run; only commit when real data changed
+          if git diff --cached --quiet -- . ':!data/version.json'; then
+            echo "No data changes (only version.json timestamp); skipping commit"
             exit 0
           fi
           UPSTREAM_SHA=$(git -C upstream/azurlane-data rev-parse --short HEAD)

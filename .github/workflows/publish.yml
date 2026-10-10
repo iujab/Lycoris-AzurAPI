@@ -1,0 +1,159 @@
+name: Publish to npm
+
+# Publishes @lycoristech/azurapi on every change to main.
+#
+# Auth: npm Trusted Publishing (OIDC). No npm token is stored anywhere; the
+# trusted publisher is configured on npmjs.com (package settings) and points
+# at this file by name. Provenance attestations are generated automatically.
+#
+# Versioning: package.json is the floor, the npm registry is the truth.
+#   - If package.json is ahead of npm (you bumped minor/major by hand), that
+#     version is published as-is.
+#   - Otherwise the latest published patch is incremented (0.1.0 -> 0.1.1 ...).
+#   The resolved version is committed back to main and tagged v<version>, and
+#   a GitHub release is created from it.
+#
+# Triggers:
+#   push to main        - direct human pushes (ignores paths not shipped in the package)
+#   workflow_run        - after "Refresh Ship Data" completes, since its push uses
+#                         GITHUB_TOKEN and therefore never fires a push event itself
+#   workflow_dispatch   - manual; force=true publishes even with no changes
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.github/**'
+      - 'docs/**'
+      - 'tests/**'
+      - 'vitest.config.ts'
+      - '.gitignore'
+  workflow_run:
+    workflows: ["Refresh Ship Data"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish even if nothing changed since the last release"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # push the version-bump commit + tag, create the GitHub release
+  id-token: write   # required for npm trusted publishing (OIDC)
+
+# Never run two publishes at once; queue instead.
+concurrency:
+  group: npm-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # After a data refresh only if it succeeded; every other trigger always runs.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    # Must stay on a GitHub-hosted runner: npm OIDC does not support self-hosted runners.
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0   # tags are needed for the changed-since-last-release check
+
+      - name: Check for publishable changes since the last release
+        id: changes
+        env:
+          FORCE: ${{ inputs.force == true }}
+        run: |
+          LAST_TAG=$(git describe --tags --abbrev=0 --match 'v*' 2>/dev/null || true)
+          if [ "$FORCE" = "true" ]; then
+            echo "Forced publish requested"
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          elif [ -z "$LAST_TAG" ]; then
+            echo "No release tag yet; publishing"
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          elif git diff --quiet "$LAST_TAG" HEAD -- . ':!.github' ':!docs' ':!tests' ':!vitest.config.ts' ':!.gitignore'; then
+            echo "No publishable changes since $LAST_TAG; skipping"
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changes since $LAST_TAG:"
+            git diff --stat "$LAST_TAG" HEAD -- . ':!.github' ':!docs' ':!tests' ':!vitest.config.ts' ':!.gitignore'
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Node.js
+        if: steps.changes.outputs.publish == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          cache: npm
+
+      - name: Ensure npm >= 11.5.1 (trusted publishing requirement)
+        if: steps.changes.outputs.publish == 'true'
+        run: |
+          npm install -g npm@latest
+          npm -v
+
+      - name: Install
+        if: steps.changes.outputs.publish == 'true'
+        run: npm ci
+
+      - name: Typecheck
+        if: steps.changes.outputs.publish == 'true'
+        run: npm run typecheck
+
+      - name: Test (client)
+        if: steps.changes.outputs.publish == 'true'
+        # tests/normalize needs the upstream sparse clone; it is exercised by the
+        # refresh workflow's build:data + verify, not here.
+        run: npx vitest run tests/client
+
+      - name: Verify shipped data
+        if: steps.changes.outputs.publish == 'true'
+        run: npm run verify
+
+      - name: Build
+        if: steps.changes.outputs.publish == 'true'
+        run: npm run build
+
+      - name: Resolve version
+        if: steps.changes.outputs.publish == 'true'
+        id: version
+        run: |
+          PKG=$(node -p "require('./package.json').name")
+          CURRENT=$(node -p "require('./package.json').version")
+          PUBLISHED=$(npm view "$PKG" version 2>/dev/null || echo "0.0.0")
+          NEXT=$(node -e '
+            const parse = v => v.split(".").map(Number);
+            const [c, p] = [process.argv[1], process.argv[2]].map(parse);
+            const gt = (a, b) => a[0] !== b[0] ? a[0] > b[0] : a[1] !== b[1] ? a[1] > b[1] : a[2] > b[2];
+            console.log(gt(c, p) ? c.join(".") : `${p[0]}.${p[1]}.${p[2] + 1}`);
+          ' "$CURRENT" "$PUBLISHED")
+          echo "package.json=$CURRENT  npm latest=$PUBLISHED  ->  publishing $NEXT"
+          npm version "$NEXT" --no-git-tag-version --allow-same-version
+          echo "version=$NEXT" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to npm
+        if: steps.changes.outputs.publish == 'true'
+        run: npm publish
+
+      - name: Commit version bump, tag, and create GitHub release
+        if: steps.changes.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          V: ${{ steps.version.outputs.version }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json package-lock.json
+          git commit -m "chore(release): v${V} [skip ci]" || echo "package.json already at v${V}"
+          git tag "v${V}"
+          if git push origin main "v${V}"; then
+            gh release create "v${V}" --title "v${V}" --generate-notes
+          else
+            echo "::warning::npm publish of v${V} succeeded but pushing the bump/tag failed (main moved). The next run reconciles from the registry."
+          fi
