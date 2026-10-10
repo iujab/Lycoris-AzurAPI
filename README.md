@@ -2,6 +2,11 @@
 
 # LycorisTech/AzurAPI
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/@lycoristech/azurapi"><img alt="npm version" src="https://img.shields.io/npm/v/%40lycoristech%2Fazurapi?logo=npm&logoColor=white&label=npm" /></a>
+  <a href="https://www.npmjs.com/package/@lycoristech/azurapi"><img alt="npm total downloads" src="https://img.shields.io/npm/d18m/%40lycoristech%2Fazurapi?label=downloads" /></a>
+</p>
+
 A self-maintained, current Azur Lane data library. Drop-in replacement for the `@azurapi/azurapi` package.
 
 ## Why?
