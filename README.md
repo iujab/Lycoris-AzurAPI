@@ -58,13 +58,24 @@ The output JSON schema (field names, structure, rarity values, etc.) is delibera
 
 ## Data Freshness
 
-Data is auto-refreshed weekly (every Monday) via GitHub Actions from [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData) (EN + CN + JP regions). The refresh pipeline:
-1. Sparse-clones the upstream repo
-2. Normalizes raw game tables into AzurAPI-compatible JSON
-3. Runs sanity checks (schema validation, field coverage)
-4. Commits updated `data/*.json` only if data changed
+Data is auto-refreshed weekly (every Monday) via GitHub Actions from [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts) (EN + CN + JP regions), which tracks every game patch within hours. The refresh pipeline:
+1. Sparse-clones the upstream Lua scripts
+2. Converts the Lua config tables to JSON (`scripts/lua2json.py`, needs Python + `lupa`)
+3. Normalizes raw game tables into AzurAPI-compatible JSON
+4. Runs sanity checks (schema validation, field coverage)
+5. Commits updated `data/*.json` only if data changed, which then auto-publishes to npm
 
-You can also trigger a refresh manually from the Actions tab, or run `npm run build:data` locally.
+You can also trigger a refresh manually from the Actions tab, or locally:
+
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/AzurLaneTools/AzurLaneLuaScripts.git upstream/azurlane-lua
+git -C upstream/azurlane-lua sparse-checkout set EN/sharecfg EN/sharecfgdata CN/sharecfg CN/sharecfgdata JP/sharecfg JP/sharecfgdata versions
+git -C upstream/azurlane-lua checkout
+pip install lupa
+npm run convert:lua && npm run build:data
+```
+
+(The previous JSON source, [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData), stopped updating on 2026-05-08.)
 
 Current data version: see [`data/version.json`](data/version.json).
 
@@ -95,7 +106,8 @@ Also available: `ship-list.json` (minimal index), `id-map.json` (name→id looku
 # Install deps
 npm install
 
-# Build data from upstream (requires upstream/ sparse checkout)
+# Build data from upstream (see "Data Freshness" for the upstream/ checkout)
+npm run convert:lua
 npm run build:data
 
 # Verify data integrity

@@ -288,6 +288,24 @@
     "rarity": "Elite"
   },
   {
+    "id": "10156",
+    "name": "Collett",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "10157",
+    "name": "Harrison",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "10158",
+    "name": "John Rodgers",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
     "id": "10201",
     "name": "Omaha",
     "hullType": "Light Cruiser",
@@ -478,6 +496,12 @@
     "name": "Pasadena",
     "hullType": "Light Cruiser",
     "rarity": "Elite"
+  },
+  {
+    "id": "10236",
+    "name": "Vicksburg",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
   },
   {
     "id": "10301",
@@ -822,6 +846,12 @@
     "rarity": "Super Rare"
   },
   {
+    "id": "10720",
+    "name": "Bennington",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "10722",
     "name": "Independence",
     "hullType": "Light Carrier",
@@ -1044,8 +1074,20 @@
     "rarity": "Elite"
   },
   {
+    "id": "20115",
+    "name": "Griffin",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
     "id": "20116",
     "name": "Hardy",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "20119",
+    "name": "Hostile",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -1148,6 +1190,12 @@
   {
     "id": "20139",
     "name": "Gallant",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "20140",
+    "name": "Hasty",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -1356,6 +1404,18 @@
     "rarity": "Elite"
   },
   {
+    "id": "20237",
+    "name": "Superb",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "20238",
+    "name": "Tiger",
+    "hullType": "Light Cruiser",
+    "rarity": "Ultra Rare"
+  },
+  {
     "id": "20301",
     "name": "London",
     "hullType": "Heavy Cruiser",
@@ -1420,6 +1480,12 @@
     "name": "Devonshire",
     "hullType": "Heavy Cruiser",
     "rarity": "Elite"
+  },
+  {
+    "id": "20314",
+    "name": "Surrey",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
   },
   {
     "id": "20401",
@@ -1692,6 +1758,12 @@
     "rarity": "Decisive"
   },
   {
+    "id": "29906",
+    "name": "Duncan",
+    "hullType": "Battlecruiser",
+    "rarity": "Priority"
+  },
+  {
     "id": "30101",
     "name": "Fubuki",
     "hullType": "Destroyer",
@@ -1774,6 +1846,12 @@
     "name": "Shiranui",
     "hullType": "Destroyer",
     "rarity": "Normal"
+  },
+  {
+    "id": "30119",
+    "name": "Amatsukaze",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
   },
   {
     "id": "30120",
@@ -2292,6 +2370,12 @@
     "rarity": "Super Rare"
   },
   {
+    "id": "30321",
+    "name": "Unzen-chan",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
     "id": "30401",
     "name": "Kongou",
     "hullType": "Battlecruiser",
@@ -2338,6 +2422,12 @@
     "name": "Kongou μ",
     "hullType": "Battlecruiser",
     "rarity": "Elite"
+  },
+  {
+    "id": "30409",
+    "name": "Azuchi",
+    "hullType": "Battlecruiser",
+    "rarity": "Ultra Rare"
   },
   {
     "id": "30501",
@@ -2422,6 +2512,12 @@
     "name": "Oumi",
     "hullType": "Battleship",
     "rarity": "Super Rare"
+  },
+  {
+    "id": "30517",
+    "name": "Musashi-chan",
+    "hullType": "Battleship",
+    "rarity": "Elite"
   },
   {
     "id": "30601",
@@ -2634,6 +2730,12 @@
     "rarity": "Ultra Rare"
   },
   {
+    "id": "31703",
+    "name": "I-14",
+    "hullType": "Aviation Submarine ",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "31901",
     "name": "Kashino",
     "hullType": "Munition Ship ",
@@ -2682,6 +2784,12 @@
     "rarity": "Priority"
   },
   {
+    "id": "39908",
+    "name": "Takahashi",
+    "hullType": "Light Cruiser",
+    "rarity": "Priority"
+  },
+  {
     "id": "40101",
     "name": "Z1",
     "hullType": "Destroyer",
@@ -2708,6 +2816,18 @@
   {
     "id": "40113",
     "name": "Z13",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "40114",
+    "name": "Z14",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "40115",
+    "name": "Z15",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -2964,6 +3084,12 @@
     "rarity": "Elite"
   },
   {
+    "id": "40317",
+    "name": "Prinz Moritz",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "40401",
     "name": "Scharnhorst",
     "hullType": "Battlecruiser",
@@ -3040,6 +3166,12 @@
     "name": "Little Friedrich",
     "hullType": "Battleship",
     "rarity": "Elite"
+  },
+  {
+    "id": "40507",
+    "name": "Götz von Berlichingen",
+    "hullType": "Battleship",
+    "rarity": "Ultra Rare"
   },
   {
     "id": "40601",
@@ -3168,6 +3300,12 @@
     "rarity": "Super Rare"
   },
   {
+    "id": "40815",
+    "name": "U-2501",
+    "hullType": "Submarine",
+    "rarity": "Ultra Rare"
+  },
+  {
     "id": "49901",
     "name": "Roon",
     "hullType": "Heavy Cruiser",
@@ -3225,6 +3363,12 @@
     "id": "49910",
     "name": "Mecklenburg",
     "hullType": "Battleship",
+    "rarity": "Decisive"
+  },
+  {
+    "id": "49911",
+    "name": "Max Immelmann",
+    "hullType": "Aircraft Carrier",
     "rarity": "Decisive"
   },
   {
@@ -3864,6 +4008,12 @@
     "rarity": "Super Rare"
   },
   {
+    "id": "80106",
+    "name": "L'Intrépide",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
     "id": "80107",
     "name": "Le Terrible",
     "hullType": "Destroyer",
@@ -3954,6 +4104,12 @@
     "rarity": "Super Rare"
   },
   {
+    "id": "80602",
+    "name": "Arromanches",
+    "hullType": "Light Carrier",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "80701",
     "name": "Béarn",
     "hullType": "Aircraft Carrier",
@@ -3970,6 +4126,12 @@
     "name": "Surcouf",
     "hullType": "Submarine",
     "rarity": "Elite"
+  },
+  {
+    "id": "81801",
+    "name": "Cherbourg",
+    "hullType": "Large Cruiser ",
+    "rarity": "Super Rare"
   },
   {
     "id": "89901",
@@ -3993,6 +4155,12 @@
     "id": "89904",
     "name": "Bayard",
     "hullType": "Light Cruiser",
+    "rarity": "Priority"
+  },
+  {
+    "id": "89905",
+    "name": "Orage",
+    "hullType": "Destroyer",
     "rarity": "Priority"
   },
   {
@@ -4158,6 +4326,12 @@
     "rarity": "Decisive"
   },
   {
+    "id": "129901",
+    "name": "Valparaíso",
+    "hullType": "Battleship",
+    "rarity": "Decisive"
+  },
+  {
     "id": "960001",
     "name": "Royal Fortune",
     "hullType": "Sailing Frigate",
@@ -4320,6 +4494,18 @@
     "rarity": "Elite"
   },
   {
+    "id": "970112",
+    "name": "Bristol META",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970113",
+    "name": "Soobrazitelny META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
     "id": "970201",
     "name": "Helena META",
     "hullType": "Light Cruiser",
@@ -4384,6 +4570,18 @@
     "name": "Regensburg META",
     "hullType": "Light Cruiser",
     "rarity": "Super Rare"
+  },
+  {
+    "id": "970212",
+    "name": "Königsberg META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970213",
+    "name": "Nürnberg META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
   },
   {
     "id": "970301",
@@ -4542,6 +4740,12 @@
     "rarity": "Elite"
   },
   {
+    "id": "970605",
+    "name": "Elbe META",
+    "hullType": "Light Carrier",
+    "rarity": "Super Rare"
+  },
+  {
     "id": "970701",
     "name": "Hiryuu META",
     "hullType": "Aircraft Carrier",
@@ -4586,6 +4790,18 @@
   {
     "id": "970708",
     "name": "Yorktown META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970709",
+    "name": "Victorious META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970710",
+    "name": "Saratoga META",
     "hullType": "Aircraft Carrier",
     "rarity": "Super Rare"
   },
@@ -5102,6 +5318,18 @@
   {
     "id": "1150006",
     "name": "Kaguya Yamai・Yuzuru Yamai",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "1170001",
+    "name": "A2",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "1170002",
+    "name": "2B",
     "hullType": "Light Cruiser",
     "rarity": "Super Rare"
   }

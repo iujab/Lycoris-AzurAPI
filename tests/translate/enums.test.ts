@@ -10,6 +10,7 @@ describe("nationalityName", () => {
     expect(nationalityName(8)).toBe("Iris Libre");
     expect(nationalityName(9)).toBe("Vichya Dominion");
     expect(nationalityName(11)).toBe("Kingdom of Tulipa");
+    expect(nationalityName(12)).toBe("Liga de Pedrería");  // Valparaíso (EN 9.3.384)
   });
 
   it("special factions at 96-98", () => {
@@ -34,6 +35,7 @@ describe("nationalityName", () => {
     expect(nationalityName(113)).toBe("Atelier Yumia");       // Yumia Liessfeldt, ...
     expect(nationalityName(114)).toBe("DanMachi");            // Hestia, Ryu Lion
     expect(nationalityName(115)).toBe("Date A Live");         // Tohka Yatogami, ...
+    expect(nationalityName(117)).toBe("NieR:Automata");       // A2, 2B (EN 9.3.384)
   });
 
   it("unknown codes fall back to Universal", () => {

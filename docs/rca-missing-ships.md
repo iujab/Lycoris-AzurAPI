@@ -113,3 +113,24 @@ decision (the reporter's list came from the wiki, which includes CN-only ships).
 ## Guard added
 
 `scripts/verify.ts` floor raised from 600 to 840 ships. The old floor let the 752-ship build pass for six months.
+
+## Resolution of cause 5 (sourcing), 2026-10-10
+
+Switched the data source to **AzurLaneTools/AzurLaneLuaScripts**. `scripts/lua2json.py` executes the Lua
+config tables in a sandboxed `lupa` runtime and writes the same JSON layout under `upstream/azurlane-data`
+that the ingest layer always read, so nothing downstream changed. The converter was validated by converting
+the Lua repo at the commit matching the dead snapshot's EN version (9.2.557, 2026-04-23): all 23 tables came
+out byte-for-byte identical to the AzurLaneData JSON. Three format quirks it handles: streamed tables split
+into `sharecfg/<t>_sublist/*.lua` chunks assigned to `pg.base.<t>_N`, the older inline row format, and the
+decompiler dropping the statement separator between consecutive `(function () … end)()` chunks (Lua parses
+the second as a call on the first's nil result; a leading `;` restores the boundary).
+
+Built on EN 9.3.384 / CN 9.7.395 / JP 9.3.495 (2026-10-10): **889 ships**, 62 of the 70 reported present;
+the remaining 8 are CN/JP-only (cause 6). New faction codes named from the game's own list in
+`sharecfgdata/gametip.lua`: 12 = Liga de Pedrería, 117 = NieR:Automata. Belfast gained a retrofit in live data,
+so the snapshot-bound assertions in `tests/normalize/ship.test.ts` were relaxed.
+
+Images: 44 of the 889 ships have no thumbnail and 67 skins no painting in `iujab/azurlane-images`, all added
+since 2026-07. That repo's weekly refresh has succeeded without adding anything since then because its pinned
+`azlassets==3.5` cannot parse bundles with stripped Unity version strings (648 failures per run); the fix is
+the upgrade on its `fix/azlassets-upgrade` branch.

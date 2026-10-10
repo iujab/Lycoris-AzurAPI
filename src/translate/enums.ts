@@ -38,7 +38,8 @@ export function rarityName(rarity: number, isResearch: boolean): string {
  * Nationality int → display string. Matches Azur Lane wiki convention.
  *
  * Codes verified against upstream ship_data_group.json + ship_data_statistics.json
- * (AzurLaneTools/AzurLaneData 4cca5c24, 2026-05-08); see tests/translate/enums.test.ts.
+ * (AzurLaneTools/AzurLaneData 4cca5c24, 2026-05-08) and the game's own faction list in
+ * sharecfgdata/gametip.lua (EN 9.3.384); see tests/translate/enums.test.ts.
  * Each collab has its own code from 101 upward, in release order.
  */
 export const NATIONALITY_MAP: Record<number, string> = {
@@ -54,6 +55,7 @@ export const NATIONALITY_MAP: Record<number, string> = {
   9: "Vichya Dominion",
   10: "Iris Orthodoxy",
   11: "Kingdom of Tulipa",
+  12: "Liga de Pedrería",     // Valparaíso (new faction, EN 9.3.384)
   96: "Tempesta",            // MOT Royal Fortune, Golden Hind, ...
   97: "META",                // Hunter.META, Fortune.META, ...
   98: "Universal",           // Bulins
@@ -72,6 +74,7 @@ export const NATIONALITY_MAP: Record<number, string> = {
   113: "Atelier Yumia",      // Yumia Liessfeldt, ...
   114: "DanMachi",           // Hestia, Ryu Lion
   115: "Date A Live",        // Tohka Yatogami, ...
+  117: "NieR:Automata",       // A2, 2B (EN 9.3.384)
 };
 
 /** Look up a nationality code; falls back to "Universal". */

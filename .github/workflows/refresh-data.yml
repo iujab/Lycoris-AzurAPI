@@ -18,17 +18,33 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Sparse-clone upstream data
+      # AzurLaneTools/AzurLaneData (JSON) stopped updating on 2026-05-08. Its sibling
+      # AzurLaneLuaScripts still updates daily, so we take the Lua tables from there
+      # and convert them ourselves (scripts/lua2json.py), producing the same JSON
+      # layout under upstream/azurlane-data that the ingest layer always read.
+      - name: Sparse-clone upstream Lua scripts
         run: |
           git clone --filter=blob:none --no-checkout \
-            https://github.com/AzurLaneTools/AzurLaneData.git \
-            upstream/azurlane-data
-          git -C upstream/azurlane-data sparse-checkout init --cone
-          git -C upstream/azurlane-data sparse-checkout set \
-            EN/sharecfgdata EN/ShareCfg \
-            CN/sharecfgdata CN/ShareCfg \
-            JP/sharecfgdata JP/ShareCfg
-          git -C upstream/azurlane-data checkout
+            https://github.com/AzurLaneTools/AzurLaneLuaScripts.git \
+            upstream/azurlane-lua
+          git -C upstream/azurlane-lua sparse-checkout init --cone
+          git -C upstream/azurlane-lua sparse-checkout set \
+            EN/sharecfg EN/sharecfgdata \
+            CN/sharecfg CN/sharecfgdata \
+            JP/sharecfg JP/sharecfgdata \
+            versions
+          git -C upstream/azurlane-lua checkout
+          echo "upstream versions: EN=$(cat upstream/azurlane-lua/versions/EN.txt) CN=$(cat upstream/azurlane-lua/versions/CN.txt) JP=$(cat upstream/azurlane-lua/versions/JP.txt)"
+
+      - name: Setup Python (for the Lua -> JSON converter)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Convert Lua tables to JSON
+        run: |
+          pip install --quiet lupa
+          python -I scripts/lua2json.py upstream/azurlane-lua upstream/azurlane-data --regions EN,CN,JP
 
       - name: Clone images repo (filenames only, no blobs)
         run: |
@@ -62,8 +78,9 @@ jobs:
             echo "No data changes (only version.json timestamp); skipping commit"
             exit 0
           fi
-          UPSTREAM_SHA=$(git -C upstream/azurlane-data rev-parse --short HEAD)
+          UPSTREAM_SHA=$(git -C upstream/azurlane-lua rev-parse --short HEAD)
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh ship data (upstream ${UPSTREAM_SHA})"
+          EN_VER=$(cat upstream/azurlane-lua/versions/EN.txt)
+          git commit -m "chore: refresh ship data (EN ${EN_VER}, upstream ${UPSTREAM_SHA})"
           git push
