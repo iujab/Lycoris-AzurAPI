@@ -83,6 +83,27 @@ export interface BuildContext {
 }
 
 // ---------------------------------------------------------------------------
+// Limit-break row detection
+// ---------------------------------------------------------------------------
+
+/**
+ * True when `key` is one of a group's real limit-break rows: the group_type
+ * followed by a single LB digit (1-4), e.g. 20212 -> 202121..202124.
+ *
+ * Anything else is an alt/promo form of a ship that also has real LB rows
+ * (the 900xxx block: 900004 -> Suffolk, 900465 -> Adventure Galley, ...).
+ *
+ * Do NOT filter on a "9" prefix instead: Vichya Dominion (9xxxx), Tempesta
+ * (960xxx) and META (97xxxx) ships all have their real LB rows at 9-prefixed
+ * ids. That heuristic silently dropped all 99 of them (issue #2).
+ */
+export function isLimitBreakRow(key: string, groupType: string): boolean {
+  if (key.length !== groupType.length + 1 || !key.startsWith(groupType)) return false;
+  const lb = key[key.length - 1];
+  return lb === "1" || lb === "2" || lb === "3" || lb === "4";
+}
+
+// ---------------------------------------------------------------------------
 // Pre-built indexes (created once in buildAllShips, passed to buildShip)
 // ---------------------------------------------------------------------------
 
@@ -129,8 +150,8 @@ export function buildShip(
   for (const [key, row] of Object.entries(ctx.en.template)) {
     if (row === undefined) continue;
     if (String(row.group_type) !== groupType) continue;
-    // Skip 9-prefix rows (promo/alt forms)
-    if (key.startsWith("9")) continue;
+    // Keep only the real LB rows; skips the 900xxx alt/promo forms
+    if (!isLimitBreakRow(key, groupType)) continue;
     rowIds.push(key);
   }
 
@@ -372,12 +393,14 @@ export function buildAllShips(ctx: BuildContext): Ship[] {
   // Pre-build shared indexes once for O(n) total cost
   const indexes = buildIndexes(ctx);
 
-  // Collect all unique group_types from EN template, excluding 9-prefix rows
+  // Collect all unique group_types that have real LB rows in the EN template
+  // (alt/promo 900xxx rows are ignored; see isLimitBreakRow)
   const groupTypeSet = new Set<string>();
   for (const [key, row] of Object.entries(ctx.en.template)) {
     if (row === undefined) continue;
-    if (key.startsWith("9")) continue;
-    groupTypeSet.add(String(row.group_type));
+    const groupType = String(row.group_type);
+    if (!isLimitBreakRow(key, groupType)) continue;
+    groupTypeSet.add(groupType);
   }
 
   const ships: Ship[] = [];

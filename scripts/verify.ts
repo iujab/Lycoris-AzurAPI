@@ -2,7 +2,10 @@
 import fs from "node:fs";
 import { ShipSchema, IdMapSchema } from "../src/schema/output/ship.js";
 
-const MIN_SHIP_COUNT = 600; // safety floor; current count is ~746
+// Safety floor. ship_data_group has 851 rows in upstream snapshot 4cca5c24 and the
+// build must emit one ship per row; the old floor of 600 let a 752-ship build
+// (99 ships silently dropped) pass for months. See docs/rca-missing-ships.md.
+const MIN_SHIP_COUNT = 840;
 
 function fail(msg: string): never {
   console.error("VERIFY FAIL:", msg);

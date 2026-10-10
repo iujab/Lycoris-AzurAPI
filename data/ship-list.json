@@ -13,7 +13,7 @@
   },
   {
     "id": "10002",
-    "name": "Specialized Bulin Custom MKIII ",
+    "name": "Specialized Bulin Custom MKIII",
     "hullType": "Destroyer",
     "rarity": "Ultra Rare"
   },
@@ -241,7 +241,7 @@
   },
   {
     "id": "10147",
-    "name": "Morrison ",
+    "name": "Morrison",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -445,7 +445,7 @@
   },
   {
     "id": "10229",
-    "name": "Boise ",
+    "name": "Boise",
     "hullType": "Light Cruiser",
     "rarity": "Elite"
   },
@@ -577,7 +577,7 @@
   },
   {
     "id": "10325",
-    "name": "Baltimore μ ",
+    "name": "Baltimore μ",
     "hullType": "Heavy Cruiser",
     "rarity": "Elite"
   },
@@ -691,7 +691,7 @@
   },
   {
     "id": "10517",
-    "name": "New Jersey ",
+    "name": "New Jersey",
     "hullType": "Battleship",
     "rarity": "Ultra Rare"
   },
@@ -805,7 +805,7 @@
   },
   {
     "id": "10714",
-    "name": "Ticonderoga ",
+    "name": "Ticonderoga",
     "hullType": "Aircraft Carrier",
     "rarity": "Super Rare"
   },
@@ -865,7 +865,7 @@
   },
   {
     "id": "10799",
-    "name": "Little Enterprise ",
+    "name": "Little Enterprise",
     "hullType": "Aircraft Carrier",
     "rarity": "Elite"
   },
@@ -895,19 +895,19 @@
   },
   {
     "id": "10805",
-    "name": "Albacore μ ",
+    "name": "Albacore μ",
     "hullType": "Submarine",
     "rarity": "Elite"
   },
   {
     "id": "10806",
-    "name": "Archerfish ",
+    "name": "Archerfish",
     "hullType": "Submarine",
     "rarity": "Super Rare"
   },
   {
     "id": "10807",
-    "name": "Nautilus ",
+    "name": "Nautilus",
     "hullType": "Submarine",
     "rarity": "Elite"
   },
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "20132",
-    "name": "Eskimo ",
+    "name": "Eskimo",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -1303,7 +1303,7 @@
   },
   {
     "id": "20228",
-    "name": "Dido μ ",
+    "name": "Dido μ",
     "hullType": "Light Cruiser",
     "rarity": "Super Rare"
   },
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "20711",
-    "name": "Illustrious μ ",
+    "name": "Illustrious μ",
     "hullType": "Aircraft Carrier",
     "rarity": "Super Rare"
   },
@@ -1699,7 +1699,7 @@
   },
   {
     "id": "30102",
-    "name": "Shirayuki ",
+    "name": "Shirayuki",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -1993,7 +1993,7 @@
   },
   {
     "id": "30181",
-    "name": "Kasumi Retrofit",
+    "name": "Kasumi",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "id": "30184",
-    "name": "Suzutsuki ",
+    "name": "Suzutsuki",
     "hullType": "Destroyer",
     "rarity": "Super Rare"
   },
@@ -2023,7 +2023,7 @@
   },
   {
     "id": "30186",
-    "name": "Kazagumo ",
+    "name": "Kazagumo",
     "hullType": "Destroyer",
     "rarity": "Super Rare"
   },
@@ -2275,7 +2275,7 @@
   },
   {
     "id": "30318",
-    "name": "Kumano ",
+    "name": "Kumano",
     "hullType": "Heavy Cruiser",
     "rarity": "Elite"
   },
@@ -2329,7 +2329,7 @@
   },
   {
     "id": "30407",
-    "name": "Amagi-chan ",
+    "name": "Amagi-chan",
     "hullType": "Battlecruiser",
     "rarity": "Elite"
   },
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "30512",
-    "name": "Kii ",
+    "name": "Kii",
     "hullType": "Battleship",
     "rarity": "Super Rare"
   },
@@ -2467,13 +2467,13 @@
   },
   {
     "id": "30608",
-    "name": "Chitose ",
+    "name": "Chitose",
     "hullType": "Light Carrier",
     "rarity": "Elite"
   },
   {
     "id": "30609",
-    "name": "Chiyoda ",
+    "name": "Chiyoda",
     "hullType": "Light Carrier",
     "rarity": "Elite"
   },
@@ -2539,7 +2539,7 @@
   },
   {
     "id": "30711",
-    "name": "Taihou μ ",
+    "name": "Taihou μ",
     "hullType": "Aircraft Carrier",
     "rarity": "Super Rare"
   },
@@ -2635,7 +2635,7 @@
   },
   {
     "id": "31901",
-    "name": "Kashino ",
+    "name": "Kashino",
     "hullType": "Munition Ship ",
     "rarity": "Elite"
   },
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "39905",
-    "name": "Hakuryuu ",
+    "name": "Hakuryuu",
     "hullType": "Aircraft Carrier",
     "rarity": "Decisive"
   },
@@ -2839,7 +2839,7 @@
   },
   {
     "id": "40205",
-    "name": "Nürnberg ",
+    "name": "Nürnberg",
     "hullType": "Light Cruiser",
     "rarity": "Elite"
   },
@@ -2911,13 +2911,13 @@
   },
   {
     "id": "40308",
-    "name": "Roon μ ",
+    "name": "Roon μ",
     "hullType": "Heavy Cruiser",
     "rarity": "Super Rare"
   },
   {
     "id": "40309",
-    "name": "Prinz Heinrich ",
+    "name": "Prinz Heinrich",
     "hullType": "Heavy Cruiser",
     "rarity": "Super Rare"
   },
@@ -3073,7 +3073,7 @@
   },
   {
     "id": "40703",
-    "name": "Peter Strasser ",
+    "name": "Peter Strasser",
     "hullType": "Aircraft Carrier",
     "rarity": "Super Rare"
   },
@@ -3199,7 +3199,7 @@
   },
   {
     "id": "49906",
-    "name": "August von Parseval ",
+    "name": "August von Parseval",
     "hullType": "Aircraft Carrier",
     "rarity": "Priority"
   },
@@ -3487,7 +3487,7 @@
   },
   {
     "id": "60303",
-    "name": "Pola ",
+    "name": "Pola",
     "hullType": "Heavy Cruiser",
     "rarity": "Super Rare"
   },
@@ -3625,7 +3625,7 @@
   },
   {
     "id": "70105",
-    "name": "Tashkent μ ",
+    "name": "Tashkent μ",
     "hullType": "Destroyer",
     "rarity": "Super Rare"
   },
@@ -3865,13 +3865,13 @@
   },
   {
     "id": "80107",
-    "name": "Le Terrible ",
+    "name": "Le Terrible",
     "hullType": "Destroyer",
     "rarity": "Super Rare"
   },
   {
     "id": "80108",
-    "name": "Maillé Brézé ",
+    "name": "Maillé Brézé",
     "hullType": "Destroyer",
     "rarity": "Elite"
   },
@@ -3996,6 +3996,150 @@
     "rarity": "Priority"
   },
   {
+    "id": "90101",
+    "name": "Le Mars",
+    "hullType": "Destroyer",
+    "rarity": "Rare"
+  },
+  {
+    "id": "90102",
+    "name": "Tartu",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90103",
+    "name": "Vauquelin",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90104",
+    "name": "Kersaint",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90105",
+    "name": "Fleuret",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90106",
+    "name": "Épée",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90107",
+    "name": "Mogador",
+    "hullType": "Destroyer",
+    "rarity": "Ultra Rare"
+  },
+  {
+    "id": "90111",
+    "name": "Le Malin",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90112",
+    "name": "Le Malin μ",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90113",
+    "name": "L'Indomptable",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90114",
+    "name": "L'Audacieux",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90201",
+    "name": "La Galissonnière",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90202",
+    "name": "Marseillaise",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90301",
+    "name": "Foch",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90302",
+    "name": "Algérie",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90303",
+    "name": "Dupleix",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90401",
+    "name": "Dunkerque",
+    "hullType": "Battlecruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "90402",
+    "name": "Strasbourg",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90501",
+    "name": "Jean Bart",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90502",
+    "name": "Clemenceau",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90503",
+    "name": "Gascogne μ",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "90701",
+    "name": "Joffre",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "99901",
+    "name": "Gascogne",
+    "hullType": "Battleship",
+    "rarity": "Priority"
+  },
+  {
+    "id": "99902",
+    "name": "Flandre",
+    "hullType": "Battleship",
+    "rarity": "Priority"
+  },
+  {
     "id": "110101",
     "name": "Evertsen",
     "hullType": "Destroyer",
@@ -4012,6 +4156,456 @@
     "name": "Gouden Leeuw",
     "hullType": "Heavy Cruiser",
     "rarity": "Decisive"
+  },
+  {
+    "id": "960001",
+    "name": "Royal Fortune",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960002",
+    "name": "São Martinho",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960003",
+    "name": "Golden Hind",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960004",
+    "name": "Mary Celeste",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960005",
+    "name": "Whydah",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960006",
+    "name": "Adventure Galley",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960007",
+    "name": "Ganj-i-Sawai",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960008",
+    "name": "Fancy",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960009",
+    "name": "Amity",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960010",
+    "name": "Portsmouth Adventure",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960011",
+    "name": "Dolphin",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960012",
+    "name": "Queen Anne's Revenge",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960013",
+    "name": "Lyme",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960014",
+    "name": "Pearl",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960015",
+    "name": "Royal James",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960016",
+    "name": "Adventure",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970101",
+    "name": "Hunter META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970102",
+    "name": "Fortune META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970103",
+    "name": "Hatakaze META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970104",
+    "name": "Kimberly META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970105",
+    "name": "Vampire META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970106",
+    "name": "Kasumi META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970107",
+    "name": "Grenville META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970108",
+    "name": "Kawakaze META",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970109",
+    "name": "Yuudachi META",
+    "hullType": "Destroyer",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970110",
+    "name": "Dewey META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970111",
+    "name": "Carabiniere META",
+    "hullType": "Destroyer",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970201",
+    "name": "Helena META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970202",
+    "name": "Memphis META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970203",
+    "name": "Sheffield META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970204",
+    "name": "La Galissonnière META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970205",
+    "name": "Jintsuu META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970206",
+    "name": "Kirov META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970207",
+    "name": "Pamiat' Merkuria META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970208",
+    "name": "Boise META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970209",
+    "name": "Cleveland META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970210",
+    "name": "Köln META",
+    "hullType": "Light Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970211",
+    "name": "Regensburg META",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970301",
+    "name": "Trento META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970302",
+    "name": "Algérie META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970303",
+    "name": "Foch META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970304",
+    "name": "Wichita META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970305",
+    "name": "Admiral Hipper META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970306",
+    "name": "Bolzano META",
+    "hullType": "Heavy Cruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970401",
+    "name": "Gneisenau META",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970402",
+    "name": "Scharnhorst META",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970403",
+    "name": "Repulse META",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970404",
+    "name": "Renown META",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970405",
+    "name": "Hiei META",
+    "hullType": "Battlecruiser",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970406",
+    "name": "Dunkerque META",
+    "hullType": "Battlecruiser",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970501",
+    "name": "Fusou META",
+    "hullType": "Battleship",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970502",
+    "name": "Yamashiro META",
+    "hullType": "Battleship",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970503",
+    "name": "Arizona META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970504",
+    "name": "Queen Elizabeth META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970505",
+    "name": "Rodney META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970506",
+    "name": "Nagato META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970507",
+    "name": "Giulio Cesare META",
+    "hullType": "Battleship",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970508",
+    "name": "Andrea Doria META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970509",
+    "name": "Nevada META",
+    "hullType": "Battleship",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970510",
+    "name": "Gangut META",
+    "hullType": "Battleship",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970601",
+    "name": "Hiyou META",
+    "hullType": "Light Carrier",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970602",
+    "name": "Junyou META",
+    "hullType": "Light Carrier",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970603",
+    "name": "Princeton META",
+    "hullType": "Light Carrier",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970604",
+    "name": "Houshou META",
+    "hullType": "Light Carrier",
+    "rarity": "Elite"
+  },
+  {
+    "id": "970701",
+    "name": "Hiryuu META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970702",
+    "name": "Ark Royal META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970703",
+    "name": "Souryuu META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970704",
+    "name": "Béarn META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970705",
+    "name": "Taihou META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970706",
+    "name": "Hornet META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970707",
+    "name": "Glorious META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970708",
+    "name": "Yorktown META",
+    "hullType": "Aircraft Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "970801",
+    "name": "U-556 META",
+    "hullType": "Submarine",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "971201",
+    "name": "Vestal META",
+    "hullType": "Repair",
+    "rarity": "Elite"
+  },
+  {
+    "id": "971301",
+    "name": "Erebus META",
+    "hullType": "Monitor",
+    "rarity": "Elite"
   },
   {
     "id": "1010001",

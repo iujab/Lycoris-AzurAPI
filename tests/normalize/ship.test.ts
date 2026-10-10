@@ -138,14 +138,53 @@ describe("buildShip", () => {
     });
   });
 
+  describe("ships whose LB row ids start with 9 (issue #2)", () => {
+    // Vichya Dominion (9xxxx), Tempesta (960xxx) and META (970xxx/971xxx) all have
+    // real limit-break rows at 9-prefixed ids; only 900xxx rows are alt forms.
+    it("Jean Bart (90501) — Vichya Dominion", () => {
+      const ship = buildShip("90501", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Jean Bart");
+      expect(ship!.nationality).toBe("Vichya Dominion");
+    });
+
+    it("Royal Fortune (960001) — Tempesta", () => {
+      const ship = buildShip("960001", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Royal Fortune");
+      expect(ship!.nationality).toBe("Tempesta");
+    });
+
+    it("Hunter META (970101) — META", () => {
+      const ship = buildShip("970101", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Hunter");
+      expect(ship!.nationality).toBe("META");
+    });
+
+    it("Foch (90301) — name is trimmed (upstream has a trailing space)", () => {
+      const ship = buildShip("90301", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toBe("Foch");
+    });
+
+    it("Neptune (1010001) — Neptunia collab, not META", () => {
+      const ship = buildShip("1010001", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.nationality).toBe("Neptunia");
+    });
+  });
+
   describe("bulk build", () => {
-    it("builds at least 700 ships without error", () => {
+    it("builds every group in ship_data_group (851 in snapshot 4cca5c24)", () => {
       const ships = buildAllShips(ctx);
-      expect(ships.length).toBeGreaterThanOrEqual(700);
+      expect(ships.length).toBeGreaterThanOrEqual(850);
       // Every ship must have required fields
       for (const ship of ships) {
         expect(ship.id).toBeTruthy();
         expect(ship.names.en).toBeTruthy();
+        // No name may carry leading/trailing whitespace (39 upstream rows do)
+        for (const n of Object.values(ship.names)) expect(n).toBe(n.trim());
       }
     });
   });
