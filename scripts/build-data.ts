@@ -25,11 +25,30 @@ function scanAvailablePaintings(): Set<string> {
   return set;
 }
 
+function scanAvailableThumbnails(): Map<string, string> {
+  const dir = path.resolve(process.cwd(), "../azurlane-images/thumbnails");
+  const map = new Map<string, string>();
+  if (!fs.existsSync(dir)) {
+    console.warn("azurapi build-data: thumbnails dir not found, thumbnails default to <group id>.png");
+    return map;
+  }
+  for (const file of fs.readdirSync(dir)) {
+    if (file.endsWith(".png")) {
+      const stem = file.slice(0, -4);
+      map.set(stem.toLowerCase(), stem);
+    }
+  }
+  console.log(`azurapi build-data: found ${map.size} thumbnail files for lookup`);
+  return map;
+}
+
 async function main(): Promise<void> {
   console.log("azurapi build-data: loading raw upstream (EN + CN + JP)...");
 
   const ctx = await createBuildContext({ loadCn: true, loadJp: true });
   ctx.availablePaintings = scanAvailablePaintings();
+  const thumbs = scanAvailableThumbnails();
+  if (thumbs.size > 0) ctx.availableThumbnails = thumbs;
 
   console.log("azurapi build-data: building ships...");
   const start = Date.now();

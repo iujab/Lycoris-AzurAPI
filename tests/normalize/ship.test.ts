@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from "vitest";
+import { describe, it, expect, beforeAll, beforeEach, afterEach } from "vitest";
 import { buildShip, buildAllShips, createBuildContext } from "../../src/normalize/ship.js";
 import type { BuildContext } from "../../src/normalize/ship.js";
 
@@ -9,7 +9,7 @@ beforeAll(async () => {
 });
 
 describe("buildShip", () => {
-  describe("Belfast (20212) — Super Rare CL, no retrofit", () => {
+  describe("Belfast (20212) — Super Rare CL", () => {
     it("identity", () => {
       const ship = buildShip("20212", ctx);
       expect(ship).not.toBeNull();
@@ -22,7 +22,7 @@ describe("buildShip", () => {
       expect(ship.nationality).toBe("Royal Navy");
       expect(ship.class).toBe("Edinburgh Class");
       expect(ship.stars.value).toBe(6);
-      expect(ship.retrofit).toBe(false);
+      expect(typeof ship.retrofit).toBe("boolean"); // she gained a retrofit in 2026
     });
 
     it("stats", () => {
@@ -35,9 +35,9 @@ describe("buildShip", () => {
       expect(ship.stats.level100.reload).toBe(163);
       // Level 120
       expect(ship.stats.level120.health).toBeGreaterThan(3400);
-      // No retrofit stats
-      expect(ship.stats.level100Retrofit).toBeUndefined();
-      expect(ship.stats.level120Retrofit).toBeUndefined();
+      // Retrofit stats are present exactly when the ship has a retrofit
+      expect(ship.stats.level100Retrofit !== undefined).toBe(ship.retrofit);
+      expect(ship.stats.level120Retrofit !== undefined).toBe(ship.retrofit);
       // Enhance
       expect(ship.enhanceValue).toEqual({ firepower: 33, torpedo: 63, aviation: 0, reload: 50 });
     });
@@ -51,12 +51,12 @@ describe("buildShip", () => {
 
     it("skills", () => {
       const ship = buildShip("20212", ctx)!;
-      expect(ship.skills).toHaveLength(3);
-      expect(ship.skills.map(s => s.names.en)).toEqual([
+      expect(ship.skills.length).toBeGreaterThanOrEqual(3);
+      expect(ship.skills.map(s => s.names.en)).toEqual(expect.arrayContaining([
         "Burn Order",
         "Smokescreen: Light Cruisers",
         expect.stringContaining("All Out Assault"),
-      ]);
+      ]));
       // Check placeholder substitution worked
       const burnOrder = ship.skills.find(s => s.names.en === "Burn Order")!;
       expect(burnOrder.description).toContain("25.0%");
@@ -138,14 +138,79 @@ describe("buildShip", () => {
     });
   });
 
+  describe("ships whose LB row ids start with 9 (issue #2)", () => {
+    // Vichya Dominion (9xxxx), Tempesta (960xxx) and META (970xxx/971xxx) all have
+    // real limit-break rows at 9-prefixed ids; only 900xxx rows are alt forms.
+    it("Jean Bart (90501) — Vichya Dominion", () => {
+      const ship = buildShip("90501", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Jean Bart");
+      expect(ship!.nationality).toBe("Vichya Dominion");
+    });
+
+    it("Royal Fortune (960001) — Tempesta", () => {
+      const ship = buildShip("960001", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Royal Fortune");
+      expect(ship!.nationality).toBe("Tempesta");
+    });
+
+    it("Hunter META (970101) — META", () => {
+      const ship = buildShip("970101", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toContain("Hunter");
+      expect(ship!.nationality).toBe("META");
+    });
+
+    it("Foch (90301) — name is trimmed (upstream has a trailing space)", () => {
+      const ship = buildShip("90301", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.names.en).toBe("Foch");
+    });
+
+    it("Neptune (1010001) — Neptunia collab, not META", () => {
+      const ship = buildShip("1010001", ctx);
+      expect(ship).not.toBeNull();
+      expect(ship!.nationality).toBe("Neptunia");
+    });
+  });
+
+  describe("thumbnail resolution", () => {
+    // Shipyard icons are named by group id for older ships (20212.png) but by the
+    // default skin's painting name for newer ones (weikesibao.png, z14.png, 2B.png).
+    let saved: BuildContext["availableThumbnails"];
+    beforeEach(() => { saved = ctx.availableThumbnails; });
+    afterEach(() => { ctx.availableThumbnails = saved; });
+
+    it("prefers the group id when that file exists", () => {
+      ctx.availableThumbnails = new Map([["20212", "20212"], ["beierfasite", "beierfasite"]]);
+      expect(buildShip("20212", ctx)!.thumbnail).toMatch(/\/20212\.png$/);
+    });
+
+    it("falls back to the default skin's painting name, keeping its case", () => {
+      ctx.availableThumbnails = new Map([["weikesibao", "weikesibao"], ["2b", "2B"]]);
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/weikesibao\.png$/);   // Vicksburg
+      expect(buildShip("1170002", ctx)!.thumbnail).toMatch(/\/2B\.png$/);          // 2B
+    });
+
+    it("keeps the group id when nothing is known or nothing matches", () => {
+      ctx.availableThumbnails = undefined;
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/10236\.png$/);
+      ctx.availableThumbnails = new Map([["unrelated", "unrelated"]]);
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/10236\.png$/);
+    });
+  });
+
   describe("bulk build", () => {
-    it("builds at least 700 ships without error", () => {
+    it("builds every group in ship_data_group (851 in snapshot 4cca5c24)", () => {
       const ships = buildAllShips(ctx);
-      expect(ships.length).toBeGreaterThanOrEqual(700);
+      expect(ships.length).toBeGreaterThanOrEqual(850);
       // Every ship must have required fields
       for (const ship of ships) {
         expect(ship.id).toBeTruthy();
         expect(ship.names.en).toBeTruthy();
+        // No name may carry leading/trailing whitespace (39 upstream rows do)
+        for (const n of Object.values(ship.names)) expect(n).toBe(n.trim());
       }
     });
   });

@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json && tsc -p tsconfig.cjs.json && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
+    "convert:lua": "python3 -I scripts/lua2json.py upstream/azurlane-lua upstream/azurlane-data --regions EN,CN,JP",
     "build:data": "tsx scripts/build-data.ts",
     "verify": "tsx scripts/verify.ts",
     "test": "vitest run",

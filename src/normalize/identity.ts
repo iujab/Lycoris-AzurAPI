@@ -9,6 +9,7 @@ import type {
   FleetTechShipClass,
   ShipDataByType,
   ShipDataGroupValue,
+  ShipSkinTemplate,
 } from "../schema/raw/index.js";
 import type { Lookups } from "../translate/lookups.js";
 import { rarityName, nationalityName } from "../translate/enums.js";
@@ -30,7 +31,14 @@ export interface IdentityInputs {
     fleetTechShipTemplate: FleetTechShipTemplate;
     fleetTechShipClass: FleetTechShipClass;
     shipDataByType: ShipDataByType;
+    /** Needed to resolve the thumbnail by the default skin's painting name. */
+    skinTemplate?: ShipSkinTemplate;
   };
+  /**
+   * Thumbnail files present in the images repo: lowercase stem -> actual filename stem.
+   * When given, the thumbnail URL only points at a file that exists (see resolveThumbnail).
+   */
+  availableThumbnails?: Map<string, string>;
   cn?: {
     statistics: ShipDataStatistics;
   };
@@ -69,6 +77,30 @@ function isLikelyChinese(s: string): boolean {
   return /[\u4e00-\u9fff]/.test(s);
 }
 
+/**
+ * Pick the thumbnail filename stem for a ship.
+ *
+ * Shipyard icons in azurlane-images are named after the texture inside the
+ * bundle: historically the numeric group id (20212.png), but newer bundles use
+ * the skin's painting name (weikesibao.png, z14.png, 2B.png). Prefer the id so
+ * existing URLs stay stable, fall back to the default skin's painting name, and
+ * keep the id when nothing is known (no images clone at build time).
+ */
+export function resolveThumbnail(
+  groupType: string,
+  defaultPainting: string | undefined,
+  available: Map<string, string> | undefined,
+): string {
+  if (available === undefined) return groupType;
+  const byId = available.get(groupType.toLowerCase());
+  if (byId !== undefined) return byId;
+  if (defaultPainting !== undefined) {
+    const byPainting = available.get(defaultPainting.toLowerCase());
+    if (byPainting !== undefined) return byPainting;
+  }
+  return groupType;
+}
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
@@ -84,6 +116,7 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
     isResearch,
     groupRow,
     lookups,
+    availableThumbnails,
   } = inputs;
 
   // ------------------------------------------------------------------
@@ -113,10 +146,11 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   const rawName = enStats.name;
   const rawEnglishName = enStats.english_name;
 
+  // Names are trimmed: upstream has trailing spaces on ~40 rows ("Foch ", "Le Malin μ ", ...)
   if (!isLikelyChinese(rawName) && rawName.trim().length > 0) {
-    nameEn = rawName;
+    nameEn = rawName.trim();
   } else if (rawEnglishName !== undefined && rawEnglishName.trim().length > 0 && !isLikelyChinese(rawEnglishName)) {
-    nameEn = rawEnglishName;
+    nameEn = rawEnglishName.trim();
   }
   // else: both are Chinese/empty → nameEn stays undefined
 
@@ -126,11 +160,11 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   if (cn !== undefined) {
     const cnStats = cn.statistics[lb3RowId];
     if (cnStats !== undefined && cnStats.name.trim().length > 0 && isLikelyChinese(cnStats.name)) {
-      nameCn = cnStats.name;
+      nameCn = cnStats.name.trim();
     }
   }
   if (nameCn === undefined && isLikelyChinese(rawName)) {
-    nameCn = rawName;
+    nameCn = rawName.trim();
   }
 
   // JP name: from jp.statistics matching row if provided
@@ -138,13 +172,13 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   if (jp !== undefined) {
     const jpStats = jp.statistics[lb3RowId];
     if (jpStats !== undefined && jpStats.name.trim().length > 0) {
-      nameJp = jpStats.name;
+      nameJp = jpStats.name.trim();
     }
   }
 
   // Code: english_name from EN statistics
   const nameCode: string | undefined =
-    rawEnglishName !== undefined && rawEnglishName.trim().length > 0 ? rawEnglishName : undefined;
+    rawEnglishName !== undefined && rawEnglishName.trim().length > 0 ? rawEnglishName.trim() : undefined;
 
   const names: Ship["names"] = {};
   if (nameEn !== undefined) names.en = nameEn;
@@ -191,7 +225,8 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   // ------------------------------------------------------------------
   // Thumbnail (shipyard icon from azurlane-images repo)
   // ------------------------------------------------------------------
-  const thumbnail = `${THUMBNAILS_URL}/${groupType}.png`;
+  const defaultPainting = en.skinTemplate?.[`${groupType}0`]?.painting;
+  const thumbnail = `${THUMBNAILS_URL}/${resolveThumbnail(groupType, defaultPainting, availableThumbnails)}.png`;
 
   // ------------------------------------------------------------------
   // Build output
