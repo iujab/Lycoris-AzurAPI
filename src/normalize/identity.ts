@@ -215,7 +215,10 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   // ------------------------------------------------------------------
   // Nationality
   // ------------------------------------------------------------------
-  const nationality = nationalityName(groupRow.nationality);
+  // The per-ship statistics row is authoritative; ship_data_group is the fallback.
+  // They disagree for exactly one ship in EN 9.3.384: Musashi-chan (30517), where the
+  // group row says Iron Blood and the ship row says Sakura Empire.
+  const nationality = nationalityName(enStats.nationality ?? groupRow.nationality);
 
   // ------------------------------------------------------------------
   // Wiki URL
