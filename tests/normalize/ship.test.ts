@@ -175,6 +175,12 @@ describe("buildShip", () => {
     });
   });
 
+  describe("nationality comes from the ship row, not the group row", () => {
+    it("Musashi-chan (30517) is Sakura Empire although ship_data_group says Iron Blood", () => {
+      expect(buildShip("30517", ctx)!.nationality).toBe("Sakura Empire");
+    });
+  });
+
   describe("thumbnail resolution", () => {
     // Shipyard icons are named by group id for older ships (20212.png) but by the
     // default skin's painting name for newer ones (weikesibao.png, z14.png, 2B.png).
