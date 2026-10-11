@@ -40,6 +40,19 @@ describe("AzurData + Ships", () => {
     expect(ship?.names.en).toBe("Belfast");
   });
 
+  it("ships.get accepts typos and prefixes", () => {
+    expect(azur.ships.get("Vicksbrg")?.names.en).toBe("Vicksburg");
+    expect(azur.ships.get("Enterp")?.names.en).toBe("Enterprise");
+    expect(azur.ships.get("Jean Bar")?.names.en).toBe("Jean Bart");
+  });
+
+  it("ships.get does not return an unrelated ship for an unknown name", () => {
+    // Fuse rates "22" a perfect substring match on U-522 and "Kuon" 0.003 on Kronshtadt
+    expect(azur.ships.get("22")).toBeUndefined();
+    expect(azur.ships.get("33")).toBeUndefined();
+    expect(azur.ships.get("Kuon")).toBeUndefined();
+  });
+
   it("ships.get returns undefined for garbage", () => {
     expect(azur.ships.get("zzzzzzzzzz")).toBeUndefined();
   });
