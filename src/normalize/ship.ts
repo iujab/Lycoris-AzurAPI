@@ -80,6 +80,8 @@ export interface BuildContext {
   thumbnailBaseUrl?: string;
   /** Set of available painting filenames (lowercase, no extension) for skin variant lookup. */
   availablePaintings?: Set<string>;
+  /** Thumbnail stems present in the images repo (lowercase -> actual), for identity.thumbnail */
+  availableThumbnails?: Map<string, string>;
 }
 
 // ---------------------------------------------------------------------------
@@ -233,7 +235,9 @@ export function buildShip(
       fleetTechShipTemplate: ctx.en.fleetTechShipTemplate,
       fleetTechShipClass: ctx.en.fleetTechShipClass,
       shipDataByType: ctx.en.shipDataByType,
+      skinTemplate: ctx.en.skinTemplate,
     },
+    availableThumbnails: ctx.availableThumbnails,
     cn: ctx.cn !== undefined ? { statistics: ctx.cn.statistics } : undefined,
     jp: ctx.jp !== undefined ? { statistics: ctx.jp.statistics } : undefined,
     isEnReleased,

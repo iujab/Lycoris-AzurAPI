@@ -52,8 +52,8 @@ jobs:
             https://github.com/iujab/azurlane-images.git \
             ../azurlane-images
           cd ../azurlane-images
-          mkdir -p paintings
-          git ls-tree -r --name-only HEAD -- paintings/ | xargs touch
+          mkdir -p paintings thumbnails
+          git ls-tree -r --name-only HEAD -- paintings/ thumbnails/ | xargs touch
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

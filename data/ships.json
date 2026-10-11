@@ -4244,7 +4244,13 @@
       },
       {
         "name": "Electrifying Moon-Viewing",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aierdeliqi_9_n_rw.webp"
+        },
         "info": {
           "cost": 880,
           "obtainedFrom": "Limited (Event)",
@@ -8001,7 +8007,13 @@
       },
       {
         "name": "Wanderer in a Miniature World",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yinggelahan_3_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -9002,7 +9014,14 @@
       },
       {
         "name": "Miller the GOAT, Guardian of the Bridge",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/mile_3_bj.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -9216,7 +9235,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/10156.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/kelaite.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Collett",
     "class": "Allen M. Sumner Class ",
     "hullType": "Destroyer",
@@ -9362,7 +9381,13 @@
     "skins": [
       {
         "name": "Collett",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -9370,7 +9395,14 @@
       },
       {
         "name": "Full-Auto Maintenance",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kelaite_2_n_rw.webp"
+        },
         "info": {
           "cost": 880,
           "obtainedFrom": "Limited (Event)",
@@ -9392,7 +9424,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/10157.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/halisen.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Harrison",
     "class": "Fletcher Class",
     "hullType": "Destroyer",
@@ -9538,7 +9570,12 @@
     "skins": [
       {
         "name": "Harrison",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -9546,7 +9583,14 @@
       },
       {
         "name": "Accidental Pursuit Race?",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/halisen_2_bj.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -9568,7 +9612,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/10158.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/yuehanluojiesi.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/John%20Rodgers",
     "class": "Fletcher Class",
     "hullType": "Destroyer",
@@ -9714,7 +9758,12 @@
     "skins": [
       {
         "name": "John Rodgers",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -9722,7 +9771,13 @@
       },
       {
         "name": "Grid Girl's Interval",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuehanluojiesi_2_n_rw.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -15809,7 +15864,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/10236.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/weikesibao.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Vicksburg",
     "class": "Cleveland Class",
     "hullType": "Light Cruiser",
@@ -15950,7 +16005,15 @@
     "skins": [
       {
         "name": "Vicksburg",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -15958,7 +16021,14 @@
       },
       {
         "name": "Dazzling Diva of the Raceway",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_2_bj.webp"
+        },
         "info": {
           "cost": 1100,
           "obtainedFrom": "Limited (Event)",
@@ -15967,7 +16037,13 @@
       },
       {
         "name": "Dazzling Diva of the Raceway",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weikesibao_3_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -17598,7 +17674,13 @@
       },
       {
         "name": "Extracurricular Tutoring",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/kunxi_4_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -25941,7 +26023,13 @@
       },
       {
         "name": "Telepathy Training",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aisaikesi_10_n_rw.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -27286,7 +27374,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/10720.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/benningdun.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Bennington",
     "class": "Essex Class",
     "hullType": "Aircraft Carrier",
@@ -27423,7 +27511,15 @@
     "skins": [
       {
         "name": "Bennington",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -27431,7 +27527,14 @@
       },
       {
         "name": "Sunshine Chaser",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/benningdun_2_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -31781,7 +31884,13 @@
       },
       {
         "name": "Code: OATH",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qiershazhi_h_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -34744,7 +34853,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20115.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/gelifen.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Griffin",
     "class": "G Class",
     "hullType": "Destroyer",
@@ -34890,7 +34999,14 @@
     "skins": [
       {
         "name": "Griffin",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -34898,7 +35014,14 @@
       },
       {
         "name": "Tensest Relaxation Therapy",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gelifen_2_n_rw.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -35110,7 +35233,15 @@
       },
       {
         "name": "Hardy (Retrofit)",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yonggan_g_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -35131,7 +35262,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20119.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/didui.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Hostile",
     "class": "H Class",
     "hullType": "Destroyer",
@@ -35277,7 +35408,12 @@
     "skins": [
       {
         "name": "Hostile",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -35285,7 +35421,13 @@
       },
       {
         "name": "Coastal Vigil",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/didui_2_n_rw.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -35774,7 +35916,15 @@
       },
       {
         "name": "PINKLOVE★Heart Lancer",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/biaoqiang_10_bj.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -38676,7 +38826,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20140.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/congmang.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Hasty",
     "class": "H Class",
     "hullType": "Destroyer",
@@ -38822,7 +38972,14 @@
     "skins": [
       {
         "name": "Hasty",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -38830,7 +38987,15 @@
       },
       {
         "name": "Sleepless Dollhouse",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/congmang_2_bj.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -40981,7 +41146,14 @@
       },
       {
         "name": "Belfast (Retrofit)",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/beierfasite_g_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -45030,7 +45202,14 @@
       },
       {
         "name": "Pure Promise Amidst a Sea of Flowers",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sikula_h_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -45605,7 +45784,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20237.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/huali.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Superb",
     "class": "Swiftsure Class ",
     "hullType": "Light Cruiser",
@@ -45747,7 +45926,15 @@
     "skins": [
       {
         "name": "Superb",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -45755,7 +45942,15 @@
       },
       {
         "name": "Superb Dentistry",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/huali_2_bj.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -45777,7 +45972,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20238.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/hu.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Tiger",
     "class": "Tiger-class",
     "hullType": "Light Cruiser",
@@ -45925,7 +46120,14 @@
     "skins": [
       {
         "name": "Tiger",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -45933,7 +46135,14 @@
       },
       {
         "name": "Maiden of the Stars",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/hu_2_bj.webp"
+        },
         "info": {
           "cost": 1050,
           "obtainedFrom": "Limited (Event)",
@@ -48115,7 +48324,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/20314.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/sali.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Surrey",
     "class": "Surrey-class",
     "hullType": "Heavy Cruiser",
@@ -48260,7 +48469,14 @@
     "skins": [
       {
         "name": "Surrey",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -48268,7 +48484,13 @@
       },
       {
         "name": "Feverish and Disheveled",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sali_2_n_rw.webp"
+        },
         "info": {
           "cost": 880,
           "obtainedFrom": "Limited (Event)",
@@ -51624,7 +51846,13 @@
       },
       {
         "name": "Alleyway Temptress",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shi_3_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -54078,7 +54306,13 @@
       },
       {
         "name": "Wandering Glow of Midnight",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/guanghui_9_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -54238,10 +54472,11 @@
     "skins": [
       {
         "name": "Victorious",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_rw.webp",
         "images": {
-          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli.webp",
-          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli.webp"
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_rw.webp"
         },
         "info": {
           "obtainedFrom": "Default",
@@ -55387,7 +55622,13 @@
       },
       {
         "name": "The Laid-Back Navigator",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/bunao_3_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -56888,7 +57129,14 @@
       },
       {
         "name": "Cheshire Cat's Fairytale Maze",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/chaijun_6_bj.webp"
+        },
         "info": {
           "cost": 1280,
           "obtainedFrom": "Limited (Event)",
@@ -57272,7 +57520,13 @@
       },
       {
         "name": "An Angelic Physical",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/pulimaosi_3_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -57295,7 +57549,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/29906.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/dengken.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Duncan",
     "class": "Duncan",
     "hullType": "Battlecruiser",
@@ -60685,7 +60939,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/30119.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/tianjinfeng.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Amatsukaze",
     "class": "Kagerou Class",
     "hullType": "Destroyer",
@@ -60831,7 +61085,15 @@
     "skins": [
       {
         "name": "Amatsukaze",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -60839,7 +61101,13 @@
       },
       {
         "name": "The Fox Spirit Descends On Heavenly Winds",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_2_n_rw.webp"
+        },
         "info": {
           "cost": 1100,
           "obtainedFrom": "Limited (Event)",
@@ -60848,7 +61116,13 @@
       },
       {
         "name": "The Fox Spirit Descends On Heavenly Winds",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tianjinfeng_3_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -77958,7 +78232,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/30321.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/yunxian_younv.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Unzen-chan",
     "class": "Unzen-Class",
     "hullType": "Heavy Cruiser",
@@ -79518,7 +79792,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/30409.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/antu.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Azuchi",
     "class": "Azuchi",
     "hullType": "Battlecruiser",
@@ -79664,7 +79938,15 @@
     "skins": [
       {
         "name": "Azuchi",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -79672,7 +79954,12 @@
       },
       {
         "name": "Testing Courage in Crimson",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_2_rw.webp"
+        },
         "info": {
           "cost": 1680,
           "obtainedFrom": "Limited (Event)",
@@ -79682,7 +79969,13 @@
       },
       {
         "name": "Testing Courage in Crimson",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/antu_3_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -81607,7 +81900,13 @@
       },
       {
         "name": "Cheering For You Alone",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/wuzang_4_n_rw.webp"
+        },
         "info": {
           "cost": 1280,
           "obtainedFrom": "Limited (Event)",
@@ -82241,7 +82540,14 @@
       },
       {
         "name": "Now, My Heart Overflows With Emotion",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/weizhang_h_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -82651,7 +82957,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/30517.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/wuzang_younv.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Musashi-chan",
     "class": "Yamato-Class",
     "hullType": "Battleship",
@@ -85506,7 +85812,14 @@
       },
       {
         "name": "The Crane's Gratitude",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xianghe_4_bj.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -86249,7 +86562,14 @@
       },
       {
         "name": "Vow of Blossoms and Dreams",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinnong_h_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -87543,7 +87863,14 @@
       },
       {
         "name": "Sunshower Fox Bride",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/baifeng_3_bj.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -89488,7 +89815,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/31703.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/i14.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/I-14",
     "class": "Type A Mod. 2",
     "hullType": "Aviation Submarine ",
@@ -89631,7 +89958,15 @@
     "skins": [
       {
         "name": "I-14",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -89639,7 +89974,15 @@
       },
       {
         "name": "Thousand-Faced Nothingness",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/i14_2_bj.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -91333,7 +91676,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/39908.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/gaoliang.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Takahashi",
     "class": "Takahashi",
     "hullType": "Light Cruiser",
@@ -92275,7 +92618,13 @@
       },
       {
         "name": "Cheer Up, Ms. Nurse!",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/z11_3_n_rw.webp"
+        },
         "info": {
           "cost": 800,
           "obtainedFrom": "Limited (Event)",
@@ -92487,7 +92836,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/40114.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/z14.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Z14",
     "class": "Type 1934A",
     "hullType": "Destroyer",
@@ -92673,7 +93022,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/40115.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/z15.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Z15",
     "class": "Type 1934A",
     "hullType": "Destroyer",
@@ -100339,7 +100688,14 @@
       },
       {
         "name": "Phantasmagoric Night Dancer",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yueke_ger_4_bj.webp"
+        },
         "info": {
           "cost": 950,
           "obtainedFrom": "Limited (Event)",
@@ -100834,7 +101190,14 @@
       },
       {
         "name": "The Midnight Channel",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/feiteliekaer_4_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -101141,7 +101504,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/40317.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/molici.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Prinz%20Moritz",
     "class": "P Class ",
     "hullType": "Heavy Cruiser",
@@ -103870,7 +104233,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/40507.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/gezi.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/G%C3%B6tz%20von%20Berlichingen",
     "class": "Ulrich von Hutten",
     "hullType": "Battleship",
@@ -105378,7 +105741,14 @@
       },
       {
         "name": "Verabredung in the Night Breeze",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/fulici_3_n_rw.webp"
+        },
         "info": {
           "cost": 1000,
           "obtainedFrom": "Limited (Event)",
@@ -108107,7 +108477,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/40815.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/u2501.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/U-2501",
     "class": "XXI-Class",
     "hullType": "Submarine",
@@ -110323,7 +110693,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/49911.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/makesi.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Max%20Immelmann",
     "class": "Max Immelmann",
     "hullType": "Aircraft Carrier",
@@ -131762,7 +132132,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/80106.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/wuju.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/L'Intr%C3%A9pide",
     "class": "L'Intrépide Class",
     "hullType": "Destroyer",
@@ -132718,7 +133088,14 @@
       },
       {
         "name": "Éclat Magique",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aimierbeierding_5_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "enClient": "Yes"
@@ -134887,7 +135264,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/80602.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/aluomangshi.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Arromanches",
     "class": "Arromanches",
     "hullType": "Light Carrier",
@@ -135634,7 +136011,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/81801.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/sebao.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Cherbourg",
     "class": "Cherbourg",
     "hullType": "Large Cruiser ",
@@ -136603,7 +136980,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/89905.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/baofengyu.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Orage",
     "class": "Orage",
     "hullType": "Destroyer",
@@ -142017,7 +142394,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/129901.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/waerpalaisuo.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Valpara%C3%ADso",
     "class": "Valparaíso",
     "hullType": "Battleship",
@@ -142749,7 +143126,14 @@
       },
       {
         "name": "The Pale Phantom's Smile",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_3_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Special",
           "live2dModel": true,
@@ -142758,7 +143142,14 @@
       },
       {
         "name": "The Pale Phantom's Smile",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jinluhao_4_bj.webp"
+        },
         "info": {
           "cost": 1680,
           "obtainedFrom": "Limited (Event)",
@@ -143514,7 +143905,15 @@
       },
       {
         "name": "My Innermost Self",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/gangyishawa_3_bj.webp"
+        },
         "info": {
           "cost": 1200,
           "obtainedFrom": "Limited (Event)",
@@ -146934,7 +147333,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970112.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/bulisituoer_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Bristol%20META",
     "class": "Bristol META",
     "hullType": "Destroyer",
@@ -147092,7 +147491,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970113.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/lingmin_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Soobrazitelny%20META",
     "class": "Soobrazitelny META",
     "hullType": "Destroyer",
@@ -147223,7 +147622,15 @@
     "skins": [
       {
         "name": "Soobrazitelny META",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lingmin_alter_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -148923,7 +149330,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970212.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/kenisibao_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/K%C3%B6nigsberg%20META",
     "class": "Königsberg META",
     "hullType": "Light Cruiser",
@@ -149078,7 +149485,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970213.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/niulunbao_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/N%C3%BCrnberg%20META",
     "class": "Nürnberg META",
     "hullType": "Light Cruiser",
@@ -149205,7 +149612,13 @@
     "skins": [
       {
         "name": "Nürnberg META",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/niulunbao_alter_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -153283,7 +153696,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970605.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/yibei_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Elbe%20META",
     "class": "Elbe META",
     "hullType": "Light Carrier",
@@ -154683,7 +155096,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970709.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/shengli_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Victorious%20META",
     "class": "Victorious META",
     "hullType": "Aircraft Carrier",
@@ -154812,7 +155225,13 @@
     "skins": [
       {
         "name": "Victorious META",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shengli_alter_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -154833,7 +155252,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/970710.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/salatuojia_alter.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Saratoga%20META",
     "class": "Saratoga META",
     "hullType": "Aircraft Carrier",
@@ -154960,7 +155379,15 @@
     "skins": [
       {
         "name": "Saratoga META",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/salatuojia_alter_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -159474,7 +159901,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060010.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/yilisi_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Elise",
     "class": "DOAXVV",
     "hullType": "Aircraft Carrier",
@@ -159629,7 +160056,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060011.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/na_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Shizuku",
     "class": "DOAXVV",
     "hullType": "Battleship",
@@ -159784,7 +160211,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060012.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/xiangdi_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Shandy",
     "class": "DOAXVV",
     "hullType": "Heavy Cruiser",
@@ -159938,7 +160365,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060013.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/zhuzi_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Tsukushi",
     "class": "DOAXVV",
     "hullType": "Destroyer",
@@ -160092,7 +160519,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060014.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/paidi_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Patty",
     "class": "DOAXVV",
     "hullType": "Submarine",
@@ -160243,7 +160670,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1060015.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/qiannai_DOA.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Yukino",
     "class": "DOAXVV",
     "hullType": "Light Cruiser",
@@ -167970,7 +168397,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1170001.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/A2.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/A2",
     "class": "NieR",
     "hullType": "Heavy Cruiser",
@@ -168096,6 +168523,7 @@
         "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2_rw.webp",
         "images": {
           "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2.webp",
           "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2_rw.webp",
           "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2_n.webp",
           "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/A2_2_n_rw.webp",
@@ -168121,7 +168549,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/1170002.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/2B.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/2B",
     "class": "NieR",
     "hullType": "Light Cruiser",
@@ -168247,6 +168675,7 @@
         "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/2B_2_rw.webp",
         "images": {
           "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/2B_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/2B_2.webp",
           "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/2B_2_rw.webp",
           "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/2B_2_n_rw.webp"
         },

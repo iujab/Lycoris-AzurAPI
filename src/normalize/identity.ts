@@ -9,6 +9,7 @@ import type {
   FleetTechShipClass,
   ShipDataByType,
   ShipDataGroupValue,
+  ShipSkinTemplate,
 } from "../schema/raw/index.js";
 import type { Lookups } from "../translate/lookups.js";
 import { rarityName, nationalityName } from "../translate/enums.js";
@@ -30,7 +31,14 @@ export interface IdentityInputs {
     fleetTechShipTemplate: FleetTechShipTemplate;
     fleetTechShipClass: FleetTechShipClass;
     shipDataByType: ShipDataByType;
+    /** Needed to resolve the thumbnail by the default skin's painting name. */
+    skinTemplate?: ShipSkinTemplate;
   };
+  /**
+   * Thumbnail files present in the images repo: lowercase stem -> actual filename stem.
+   * When given, the thumbnail URL only points at a file that exists (see resolveThumbnail).
+   */
+  availableThumbnails?: Map<string, string>;
   cn?: {
     statistics: ShipDataStatistics;
   };
@@ -69,6 +77,30 @@ function isLikelyChinese(s: string): boolean {
   return /[\u4e00-\u9fff]/.test(s);
 }
 
+/**
+ * Pick the thumbnail filename stem for a ship.
+ *
+ * Shipyard icons in azurlane-images are named after the texture inside the
+ * bundle: historically the numeric group id (20212.png), but newer bundles use
+ * the skin's painting name (weikesibao.png, z14.png, 2B.png). Prefer the id so
+ * existing URLs stay stable, fall back to the default skin's painting name, and
+ * keep the id when nothing is known (no images clone at build time).
+ */
+export function resolveThumbnail(
+  groupType: string,
+  defaultPainting: string | undefined,
+  available: Map<string, string> | undefined,
+): string {
+  if (available === undefined) return groupType;
+  const byId = available.get(groupType.toLowerCase());
+  if (byId !== undefined) return byId;
+  if (defaultPainting !== undefined) {
+    const byPainting = available.get(defaultPainting.toLowerCase());
+    if (byPainting !== undefined) return byPainting;
+  }
+  return groupType;
+}
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
@@ -84,6 +116,7 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
     isResearch,
     groupRow,
     lookups,
+    availableThumbnails,
   } = inputs;
 
   // ------------------------------------------------------------------
@@ -192,7 +225,8 @@ export function normalizeIdentity(inputs: IdentityInputs): IdentityOutput {
   // ------------------------------------------------------------------
   // Thumbnail (shipyard icon from azurlane-images repo)
   // ------------------------------------------------------------------
-  const thumbnail = `${THUMBNAILS_URL}/${groupType}.png`;
+  const defaultPainting = en.skinTemplate?.[`${groupType}0`]?.painting;
+  const thumbnail = `${THUMBNAILS_URL}/${resolveThumbnail(groupType, defaultPainting, availableThumbnails)}.png`;
 
   // ------------------------------------------------------------------
   // Build output

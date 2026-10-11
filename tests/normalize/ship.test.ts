@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from "vitest";
+import { describe, it, expect, beforeAll, beforeEach, afterEach } from "vitest";
 import { buildShip, buildAllShips, createBuildContext } from "../../src/normalize/ship.js";
 import type { BuildContext } from "../../src/normalize/ship.js";
 
@@ -172,6 +172,32 @@ describe("buildShip", () => {
       const ship = buildShip("1010001", ctx);
       expect(ship).not.toBeNull();
       expect(ship!.nationality).toBe("Neptunia");
+    });
+  });
+
+  describe("thumbnail resolution", () => {
+    // Shipyard icons are named by group id for older ships (20212.png) but by the
+    // default skin's painting name for newer ones (weikesibao.png, z14.png, 2B.png).
+    let saved: BuildContext["availableThumbnails"];
+    beforeEach(() => { saved = ctx.availableThumbnails; });
+    afterEach(() => { ctx.availableThumbnails = saved; });
+
+    it("prefers the group id when that file exists", () => {
+      ctx.availableThumbnails = new Map([["20212", "20212"], ["beierfasite", "beierfasite"]]);
+      expect(buildShip("20212", ctx)!.thumbnail).toMatch(/\/20212\.png$/);
+    });
+
+    it("falls back to the default skin's painting name, keeping its case", () => {
+      ctx.availableThumbnails = new Map([["weikesibao", "weikesibao"], ["2b", "2B"]]);
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/weikesibao\.png$/);   // Vicksburg
+      expect(buildShip("1170002", ctx)!.thumbnail).toMatch(/\/2B\.png$/);          // 2B
+    });
+
+    it("keeps the group id when nothing is known or nothing matches", () => {
+      ctx.availableThumbnails = undefined;
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/10236\.png$/);
+      ctx.availableThumbnails = new Map([["unrelated", "unrelated"]]);
+      expect(buildShip("10236", ctx)!.thumbnail).toMatch(/\/10236\.png$/);
     });
   });
 
