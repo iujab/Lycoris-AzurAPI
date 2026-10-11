@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { Ships } from "./ships.js";
 import { fetchLatestData, type FetchOptions } from "./fetcher.js";
 import type { Ship } from "../schema/output/ship.js";
@@ -13,16 +14,30 @@ export interface AzurDataInitOptions extends FetchOptions {
   fetchLatest?: boolean;
 }
 
+/**
+ * Path of this source file as seen in a stack trace: a file:// URL under ESM,
+ * a plain path under CJS. This file is compiled to both formats from one
+ * source, so `import.meta.url` cannot be written here (it is a syntax error
+ * in the CJS build), and `__dirname` only exists in CJS.
+ */
+function thisFileFromStack(): string | undefined {
+  const stack = new Error().stack ?? "";
+  for (const line of stack.split("\n").slice(1)) {
+    const m = line.match(/\(?((?:file:\/\/)?\/[^):]+?\.[cm]?[jt]s):\d+:\d+\)?$/);
+    if (m?.[1] !== undefined) return m[1].startsWith("file://") ? fileURLToPath(m[1]) : m[1];
+  }
+  return undefined;
+}
+
 function resolveThisDir(): string {
-  // CJS: __dirname is injected by Node
-  // ESM under tsx/ts-node: __dirname is polyfilled
-  // Pure ESM: falls back to cwd
   try {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore __dirname exists in CJS but not in ESM type defs
     if (typeof __dirname === "string") return __dirname; // eslint-disable-line no-undef
   } catch { /* not CJS */ }
-  return process.cwd();
+  const file = thisFileFromStack();
+  if (file !== undefined) return path.dirname(file);
+  return process.cwd(); // last resort; resolveDefaultDataPath walks up from here
 }
 
 export class AzurData {
