@@ -8216,7 +8216,7 @@
         },
         "info": {
           "cost": 880,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -50714,6 +50714,15 @@
           "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
+      },
+      {
+        "name": "Femme Fatale's Bewitching Veil",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5.webp",
+        "info": {
+          "cost": 1050,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
       }
     ]
   },
@@ -65886,7 +65895,7 @@
         },
         "info": {
           "cost": 780,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -77033,7 +77042,7 @@
         },
         "info": {
           "cost": 980,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       },
@@ -82533,7 +82542,7 @@
         },
         "info": {
           "cost": 1180,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "live2dModel": true,
           "enClient": "Yes"
         }
@@ -90635,7 +90644,7 @@
         },
         "info": {
           "cost": 980,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -91657,6 +91666,15 @@
         },
         "info": {
           "cost": 980,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Angel in the Devil's Mirror?",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3.webp",
+        "info": {
+          "cost": 880,
           "obtainedFrom": "Limited (Event)",
           "enClient": "Yes"
         }
@@ -130538,7 +130556,7 @@
         },
         "info": {
           "cost": 900,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -140128,6 +140146,21 @@
           "obtainedFrom": "Limited (Event)",
           "enClient": "Yes"
         }
+      },
+      {
+        "name": "The Strict Maid Isn't So Strict",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/aerjiliya_4_n_rw.webp"
+        },
+        "info": {
+          "obtainedFrom": "Special",
+          "enClient": "Yes"
+        }
       }
     ]
   },
@@ -142189,6 +142222,16 @@
           "live2dModel": true,
           "enClient": "Yes"
         }
+      },
+      {
+        "name": "Archangel of Wings Impure",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3.webp",
+        "info": {
+          "cost": 1030,
+          "obtainedFrom": "Limited (Event)",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
       }
     ]
   },
@@ -143826,7 +143869,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -143899,7 +143942,7 @@
         },
         "info": {
           "cost": 980,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       },
@@ -144031,7 +144074,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -144105,7 +144148,7 @@
         },
         "info": {
           "cost": 880,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -144221,7 +144264,7 @@
       "availableIn": {
         "light": false,
         "heavy": false,
-        "aviation": false,
+        "aviation": true,
         "limited": true,
         "exchange": false
       }
@@ -144293,7 +144336,7 @@
         },
         "info": {
           "cost": 980,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -144408,7 +144451,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -144482,7 +144525,7 @@
         },
         "info": {
           "cost": 780,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -144670,7 +144713,7 @@
         },
         "info": {
           "cost": 780,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -144777,7 +144820,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -144854,6 +144897,16 @@
         },
         "info": {
           "cost": 1180,
+          "obtainedFrom": "Skin Shop",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Seductive Wings of Dark Depravity",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3.webp",
+        "info": {
+          "cost": 980,
           "obtainedFrom": "Limited (Event)",
           "live2dModel": true,
           "enClient": "Yes"
@@ -144969,7 +145022,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -145045,7 +145098,7 @@
         },
         "info": {
           "cost": 980,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -145152,7 +145205,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -145229,7 +145282,7 @@
         },
         "info": {
           "cost": 1260,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "live2dModel": true,
           "enClient": "Yes"
         }
@@ -145345,7 +145398,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -145423,7 +145476,7 @@
         },
         "info": {
           "cost": 780,
-          "obtainedFrom": "Limited (Event)",
+          "obtainedFrom": "Skin Shop",
           "enClient": "Yes"
         }
       }
@@ -145614,6 +145667,885 @@
         },
         "info": {
           "cost": 880,
+          "obtainedFrom": "Skin Shop",
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "960017": {
+    "id": "960017",
+    "names": {
+      "en": "Merkuriy",
+      "jp": "メルクーリィ",
+      "cn": "水星号",
+      "code": "MOT Merkuriy"
+    },
+    "rarity": "Super Rare",
+    "stars": {
+      "stars": "★★★★★★",
+      "value": 6
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960017.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Merkuriy",
+    "class": "Lyme",
+    "hullType": "Sailing Frigate",
+    "nationality": "Tempesta",
+    "stats": {
+      "level100": {
+        "health": 4047,
+        "firepower": 236,
+        "torpedo": 0,
+        "evasion": 50,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 172,
+        "speed": 29.4,
+        "luck": 85,
+        "accuracy": 111
+      },
+      "level120": {
+        "health": 4464,
+        "firepower": 249,
+        "torpedo": 0,
+        "evasion": 57,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 182,
+        "speed": 29.4,
+        "luck": 85,
+        "accuracy": 124
+      }
+    },
+    "enhanceValue": {
+      "firepower": 48,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 53
+    },
+    "slots": [
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.1,
+        "maxEfficiency": 1.35
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.1,
+        "maxEfficiency": 1.35
+      },
+      {
+        "type": "Auxiliary",
+        "minEfficiency": 1,
+        "maxEfficiency": 1
+      }
+    ],
+    "skills": [
+      {
+        "color": "yellow",
+        "names": {
+          "en": "I Shall Illuminate the Way"
+        },
+        "description": "Every 4s: fires a Lv.10 special shell (DMG is based on the skill's level); enemies hit by this special shell take 15.0% increased shelling DMG from Merkuriy (effect does not stack). Once per battle, when this special shell has been fired 4 times: fires a Lv.10 special barrage (DMG is based on the skill's level) and reduces this ship's DMG taken by 25.0% until the end of battle (does not stack)."
+      },
+      {
+        "color": "blue",
+        "names": {
+          "en": "Lodestar of the Mercurial Path"
+        },
+        "description": "Once per battle, when a Tempesta ship other than Merkuriy takes DMG that would otherwise sink her: as long as Merkuriy is afloat, that ship does not sink, evades all DMG, and instead gains the [Mercurial Path] effect for up to 3s, increasing that ship's FP by 15.0%. When the [Mercurial Path] effect ends, or if Merkuriy is sunk: that ship immediately sinks. At the end of battle: all ships with [Mercurial Path] restore 8.0% of their Max HP. As long as Merkuriy is afloat: increases the DMG of all other Tempesta ships in the fleet by 5.0%."
+      },
+      {
+        "color": "yellow",
+        "names": {
+          "en": "The Miracle Named Merkuriy"
+        },
+        "description": "At the start of battle: increases this ship's FP, RLD, and ACC by 15.0%, and EVA by 25.0%, then generates a barrier that can absorb up to 15.0% of this ship's Max HP, lasting until the end of battle. Every 10s: this ship gains a buff based on the battlefield state; if 2 or more enemies are present on the field: increases this ship's DMG dealt by 10.0% for 8s; if fewer than 2 enemies are present on the field: increases this ship's Evasion Rate by 8.0% for 8s."
+      },
+      {
+        "color": "red",
+        "names": {
+          "en": "All Out Assault II"
+        },
+        "description": "Activates All Out Assault II: Merkuriy once every 20 times the Main Guns are fired."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Unlock All Out Assault",
+        "Main gun efficiency +5%",
+        "SPD +5"
+      ],
+      [
+        "Main gun efficiency +10%",
+        "SPD +5"
+      ],
+      [
+        "Improve All Out Assault",
+        "Main gun efficiency +10%",
+        "SPD +5"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 1700,
+      "oil": 0,
+      "medal": 10
+    },
+    "fleetTech": {
+      "techPoints": {
+        "collection": 13,
+        "maxLimitBreak": 26,
+        "maxLevel": 19,
+        "total": 58
+      },
+      "statsBonus": {
+        "collection": {
+          "stat": "firepower",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        },
+        "maxLevel": {
+          "stat": "evasion",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        }
+      }
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: Tempesta and the Corridor of Fog"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Shiki Asagi"
+      }
+    },
+    "skins": [
+      {
+        "name": "Merkuriy",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao.webp",
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Envoy Angel of Love",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2.webp",
+        "info": {
+          "cost": 1260,
+          "obtainedFrom": "Limited (Event)",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "960018": {
+    "id": "960018",
+    "names": {
+      "en": "Járnbarðinn",
+      "jp": "ヤーンバアデン",
+      "cn": "铁角号",
+      "code": "MOT Jernbarden"
+    },
+    "rarity": "Super Rare",
+    "stars": {
+      "stars": "★★★★★★",
+      "value": 6
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960018.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/J%C3%A1rnbar%C3%B0inn",
+    "class": "Járnbarðinn",
+    "hullType": "Sailing Frigate",
+    "nationality": "Tempesta",
+    "stats": {
+      "level100": {
+        "health": 2218,
+        "firepower": 170,
+        "torpedo": 0,
+        "evasion": 80,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 167,
+        "speed": 18,
+        "luck": 70,
+        "accuracy": 146
+      },
+      "level120": {
+        "health": 2457,
+        "firepower": 179,
+        "torpedo": 0,
+        "evasion": 91,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 176,
+        "speed": 18,
+        "luck": 70,
+        "accuracy": 164
+      }
+    },
+    "enhanceValue": {
+      "firepower": 35,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 51
+    },
+    "slots": [
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1,
+        "maxEfficiency": 1.25
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1,
+        "maxEfficiency": 1.25
+      },
+      {
+        "type": "Auxiliary",
+        "minEfficiency": 1,
+        "maxEfficiency": 1
+      }
+    ],
+    "skills": [
+      {
+        "color": "yellow",
+        "names": {
+          "en": "The Wavebreaking Longship"
+        },
+        "description": "During battle, increases this ship's DMG dealt by 15.0%, and SPD by 5. Upon entering battle, and every 15s after that: fires a Lv.10 special barrage (DMG is based on the skill's level); enemies hit by this barrage deal 10.0% less DMG to Járnbarðinn."
+      },
+      {
+        "color": "red",
+        "names": {
+          "en": "The Iron Ram's Charge"
+        },
+        "description": "Upon entering battle: increases this ship's FP by 15.0%, and reduces this ship's DMG taken by 15.0% until the end of battle. Once per battle, when this ship's HP falls below 35.0% as a result of DMG taken, or after 60s have passed since entering battle: restores 15.0% of this ship's Max HP, then charges at a random enemy to perform a Lv.10 special slashing attack (prioritizes humanoid enemies; DMG is based on the skill's level); while performing this charge attack, this ship cannot be dealt more than 10.0% of her Max HP in a single hit. However, if this ship takes more than 10.0% of her Max HP during this time, she will leave the battlefield after finishing this attack and ignore all enemy projectiles and collision in the process."
+      },
+      {
+        "color": "red",
+        "names": {
+          "en": "All Out Assault II"
+        },
+        "description": "Activates All Out Assault II: Járnbarðinn once every 40 times the Main Guns are fired."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Unlock All Out Assault",
+        "Main gun efficiency +5%"
+      ],
+      [
+        "Main gun efficiency +10%",
+        "Improve Hunting Range"
+      ],
+      [
+        "Improve All Out Assault",
+        "Main gun efficiency +10%",
+        "Main gun base +1",
+        "Improve Hunting Range"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 1448,
+      "oil": 0,
+      "medal": 10
+    },
+    "fleetTech": {
+      "techPoints": {
+        "collection": 8,
+        "maxLimitBreak": 16,
+        "maxLevel": 12,
+        "total": 36
+      },
+      "statsBonus": {
+        "collection": {
+          "stat": "firepower",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        },
+        "maxLevel": {
+          "stat": "health",
+          "bonus": 2,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        }
+      }
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: Tempesta and the Corridor of Fog"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Hana Tamegai"
+      }
+    },
+    "skins": [
+      {
+        "name": "Járnbarðinn",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao.webp",
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Fallen Angel Astray",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2.webp",
+        "info": {
+          "cost": 980,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "960019": {
+    "id": "960019",
+    "names": {
+      "en": "Selimiye",
+      "jp": "セリミエ",
+      "cn": "塞利米耶号",
+      "code": "MOT Selimiye"
+    },
+    "rarity": "Super Rare",
+    "stars": {
+      "stars": "★★★★★★",
+      "value": 6
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960019.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Selimiye",
+    "class": "Selimiye",
+    "hullType": "Sailing Frigate",
+    "nationality": "Tempesta",
+    "stats": {
+      "level100": {
+        "health": 5190,
+        "firepower": 414,
+        "torpedo": 0,
+        "evasion": 28,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 178,
+        "speed": 26,
+        "luck": 50,
+        "accuracy": 48
+      },
+      "level120": {
+        "health": 5750,
+        "firepower": 436,
+        "torpedo": 0,
+        "evasion": 33,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 188,
+        "speed": 26,
+        "luck": 50,
+        "accuracy": 54
+      }
+    },
+    "enhanceValue": {
+      "firepower": 88,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 55
+    },
+    "slots": [
+      {
+        "type": "Artillery (Battleship)",
+        "minEfficiency": 0.8,
+        "maxEfficiency": 1.1
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.75,
+        "maxEfficiency": 1.75
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.75,
+        "maxEfficiency": 1.75
+      }
+    ],
+    "skills": [
+      {
+        "color": "red",
+        "names": {
+          "en": "Superheavy Firepower Network"
+        },
+        "description": "At the start of battle: increases this ship's FP by 20.0%, ACC by 15.0%, and changes this ship's Armor type to Medium. Every 15s: fires a Lv.10 special barrage (DMG is based on the skill's level)."
+      },
+      {
+        "color": "yellow",
+        "names": {
+          "en": "Selimiye's Siege"
+        },
+        "description": "Every 15s: applies [Selimiye's Siege] to a random enemy (prioritizes humanoid enemies) for 10s, reducing its SPD by 15.0%, causing it to take 20.0% more DMG from Selimiye, and reducing allied Tempesta ships' DMG taken from it by 15.0%. When [Selimiye's Siege] ends: increases allied Tempesta ships' EVA by 15.0% until the next time [Selimiye's Siege] is applied."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Main gun base +1",
+        "Main gun efficiency +5%"
+      ],
+      [
+        "Secondary gun base +1",
+        "Main gun base +2",
+        "Main gun efficiency +10%"
+      ],
+      [
+        "Main gun base +2",
+        "Main gun efficiency +15%"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 2682,
+      "oil": 0,
+      "medal": 10
+    },
+    "fleetTech": {
+      "techPoints": {
+        "collection": 38,
+        "maxLimitBreak": 78,
+        "maxLevel": 58,
+        "total": 174
+      },
+      "statsBonus": {
+        "collection": {
+          "stat": "health",
+          "bonus": 2,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        },
+        "maxLevel": {
+          "stat": "firepower",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        }
+      }
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: Tempesta and the Corridor of Fog"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Minase Suzuka"
+      }
+    },
+    "skins": [
+      {
+        "name": "Selimiye",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye.webp",
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Seer in a Bind",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2.webp",
+        "info": {
+          "cost": 1260,
+          "obtainedFrom": "Limited (Event)",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "960020": {
+    "id": "960020",
+    "names": {
+      "en": "Ormrinn Langi",
+      "jp": "オーメン・ランゲ",
+      "cn": "长蛇号",
+      "code": "MOT Ormen Lange"
+    },
+    "rarity": "Elite",
+    "stars": {
+      "stars": "★★★★★",
+      "value": 5
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960020.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Ormrinn%20Langi",
+    "class": "Ormrinn Langi",
+    "hullType": "Sailing Frigate",
+    "nationality": "Tempesta",
+    "stats": {
+      "level100": {
+        "health": 3770,
+        "firepower": 140,
+        "torpedo": 0,
+        "evasion": 54,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 179,
+        "speed": 40,
+        "luck": 22,
+        "accuracy": 140
+      },
+      "level120": {
+        "health": 4177,
+        "firepower": 148,
+        "torpedo": 0,
+        "evasion": 62,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 190,
+        "speed": 40,
+        "luck": 22,
+        "accuracy": 157
+      }
+    },
+    "enhanceValue": {
+      "firepower": 29,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 55
+    },
+    "slots": [
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 0.95,
+        "maxEfficiency": 1.25
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 0.95,
+        "maxEfficiency": 1.25
+      },
+      {
+        "type": "Auxiliary",
+        "minEfficiency": 1,
+        "maxEfficiency": 1
+      }
+    ],
+    "skills": [
+      {
+        "color": "red",
+        "names": {
+          "en": "Thundering Voice"
+        },
+        "description": "During battle, reduces this ship's DMG taken by 15.0%, and increases this ship's FP and ACC by 15.0%. Every time this ship activates [All Out Assault: Ormrinn Langi]: fires a Lv.10 special barrage (DMG is based on the skill's level). When this special barrage has been fired 3 times: nullifies all effects from this skill."
+      },
+      {
+        "color": "yellow",
+        "names": {
+          "en": "Serpent's Fang"
+        },
+        "description": "Increases this ship's EVA by 15.0%. When this ship hits the same enemy with her Main Guns twice: inflicts [Serpent's Fang] on that enemy until the end of battle, reducing its SPD by 5.0% and causing it to take 87 DMG per second. When an enemy with [Serpent's Fang] is defeated: restores 1.0% of this ship's Max HP."
+      },
+      {
+        "color": "red",
+        "names": {
+          "en": "All Out Assault II"
+        },
+        "description": "Activates All Out Assault II: Ormrinn Langi once every 30 times the Main Guns are fired."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Unlock All Out Assault",
+        "Main gun efficiency +5%",
+        "SPD +8"
+      ],
+      [
+        "First weapon slot base +1",
+        "Main gun efficiency +10%",
+        "SPD +8"
+      ],
+      [
+        "Improve All Out Assault",
+        "Main gun efficiency +15%",
+        "SPD +8"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 1700,
+      "oil": 0,
+      "medal": 4
+    },
+    "fleetTech": {
+      "techPoints": {
+        "collection": 7,
+        "maxLimitBreak": 14,
+        "maxLevel": 10,
+        "total": 31
+      },
+      "statsBonus": {
+        "collection": {
+          "stat": "accuracy",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        },
+        "maxLevel": {
+          "stat": "health",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        }
+      }
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: Tempesta and the Corridor of Fog"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Nana Kawaishi"
+      }
+    },
+    "skins": [
+      {
+        "name": "Ormrinn Langi",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao.webp",
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Pure-White Predator",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2.webp",
+        "info": {
+          "cost": 780,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "960021": {
+    "id": "960021",
+    "names": {
+      "en": "Riyala Bey",
+      "jp": "リヤラ・ベイ",
+      "cn": "雷伊尔·贝号",
+      "code": "MOT Real bey"
+    },
+    "rarity": "Elite",
+    "stars": {
+      "stars": "★★★★★",
+      "value": 5
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960021.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Riyala%20Bey",
+    "class": "Riyala Bey",
+    "hullType": "Sailing Frigate",
+    "nationality": "Tempesta",
+    "stats": {
+      "level100": {
+        "health": 4738,
+        "firepower": 384,
+        "torpedo": 0,
+        "evasion": 28,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 160,
+        "speed": 26,
+        "luck": 50,
+        "accuracy": 46
+      },
+      "level120": {
+        "health": 5248,
+        "firepower": 404,
+        "torpedo": 0,
+        "evasion": 33,
+        "antiwar": 0,
+        "aviation": 0,
+        "reload": 169,
+        "speed": 26,
+        "luck": 50,
+        "accuracy": 51
+      }
+    },
+    "enhanceValue": {
+      "firepower": 81,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 49
+    },
+    "slots": [
+      {
+        "type": "Artillery (Battleship)",
+        "minEfficiency": 0.8,
+        "maxEfficiency": 1.1
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.75,
+        "maxEfficiency": 1.75
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 1.75,
+        "maxEfficiency": 1.75
+      }
+    ],
+    "skills": [
+      {
+        "color": "red",
+        "names": {
+          "en": "Sanctuary of Wings"
+        },
+        "description": "At the start of battle, for each Tempesta ship in the fleet: increases this ship's FP and ACC by 5.0%, and reduces this ship's DMG taken by 5.0% until the end of battle (stacks up to 4 times). When this ship fires her Main Guns: 70% chance to fire a Lv.10 special barrage (DMG is based on the skill's level)."
+      },
+      {
+        "color": "yellow",
+        "names": {
+          "en": "Plumes of Retribution"
+        },
+        "description": "Once per battle, if this ship's total DMG taken exceeds 30.0% of her Max HP: restores 8.0% of this ship's Max HP. As long as this ship remains afloat: increases Tempesta ships' RLD by 10.0%."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Main gun base +1",
+        "Main gun efficiency +5%"
+      ],
+      [
+        "Secondary gun base +1",
+        "Main gun base +2",
+        "Main gun efficiency +10%"
+      ],
+      [
+        "Main gun base +2",
+        "Main gun efficiency +15%"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 2682,
+      "oil": 0,
+      "medal": 4
+    },
+    "fleetTech": {
+      "techPoints": {
+        "collection": 28,
+        "maxLimitBreak": 56,
+        "maxLevel": 42,
+        "total": 126
+      },
+      "statsBonus": {
+        "collection": {
+          "stat": "firepower",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        },
+        "maxLevel": {
+          "stat": "reload",
+          "bonus": 1,
+          "applicable": [
+            "Sailing Frigate",
+            "Sailing Frigate",
+            "Sailing Frigate"
+          ]
+        }
+      }
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: Tempesta and the Corridor of Fog"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Nana Mikitani"
+      }
+    },
+    "skins": [
+      {
+        "name": "Riyala Bey",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei.webp",
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Angelic Idol☆in Training",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2.webp",
+        "info": {
+          "cost": 800,
           "obtainedFrom": "Limited (Event)",
           "enClient": "Yes"
         }

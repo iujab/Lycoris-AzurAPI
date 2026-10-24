@@ -4428,6 +4428,36 @@
     "rarity": "Elite"
   },
   {
+    "id": "960017",
+    "name": "Merkuriy",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960018",
+    "name": "Járnbarðinn",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960019",
+    "name": "Selimiye",
+    "hullType": "Sailing Frigate",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "960020",
+    "name": "Ormrinn Langi",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
+    "id": "960021",
+    "name": "Riyala Bey",
+    "hullType": "Sailing Frigate",
+    "rarity": "Elite"
+  },
+  {
     "id": "970101",
     "name": "Hunter META",
     "hullType": "Destroyer",
