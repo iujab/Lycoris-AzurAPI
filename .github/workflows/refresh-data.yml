@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # AzurLaneTools/AzurLaneData (JSON) stopped updating on 2026-05-08. Its sibling
       # AzurLaneLuaScripts still updates daily, so we take the Lua tables from there
@@ -37,7 +37,7 @@ jobs:
           echo "upstream versions: EN=$(cat upstream/azurlane-lua/versions/EN.txt) CN=$(cat upstream/azurlane-lua/versions/CN.txt) JP=$(cat upstream/azurlane-lua/versions/JP.txt)"
 
       - name: Setup Python (for the Lua -> JSON converter)
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -56,9 +56,9 @@ jobs:
           git ls-tree -r --name-only HEAD -- paintings/ thumbnails/ | xargs touch
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install dependencies

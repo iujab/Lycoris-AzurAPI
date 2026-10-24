@@ -11,7 +11,7 @@ A self-maintained, current Azur Lane data library. Drop-in replacement for the `
 
 ## Why?
 
-The older and amazing `@azurapi/azurapi` ecosystem is now 3+ years stale. I have fond memories starting off my computer science hobby building a discord bot using that API. Recently, when revisiting my old discord bot, I noticed that the azurapi package was years out of date, likely due to the wiki scraper method no longer being viable. This AzurAPI builds on the [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData) and [nobbyfix/AzurLane-AssetDownloader](https://github.com/nobbyfix/AzurLane-AssetDownloader) repos so our data stays fresh within hours of each game patch.
+The older and amazing `@azurapi/azurapi` ecosystem is now 3+ years stale. I have fond memories starting off my computer science hobby building a discord bot using that API. Recently, when revisiting my old discord bot, I noticed that the azurapi package was years out of date, likely due to the wiki scraper method no longer being viable. This AzurAPI builds on the [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts) and [nobbyfix/AzurLane-AssetDownloader](https://github.com/nobbyfix/AzurLane-AssetDownloader) repos so our data stays fresh within hours of each game patch.
 
 ## Installation
 
@@ -52,13 +52,13 @@ That's it. The `ships.get()` API is compatible. Ship objects match the same sche
 
 This library is a **schema-compatible successor** to [`@azurapi/azurapi`](https://github.com/AzurAPI/azurapi-js) (GPL-3.0) and its sister data repo [`AzurAPI/azurapi-js-setup`](https://github.com/AzurAPI/azurapi-js-setup) (AGPL-3.0).
 
-This project is not a fork and does not contain any code from those repositories. It is an independent rewrite built from scratch against the decompiled game data from [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData).
+This project is not a fork and does not contain any code from those repositories. It is an independent rewrite built from scratch against the decompiled game data from [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts).
 
 The output JSON schema (field names, structure, rarity values, etc.) is deliberately kept shape-compatible with the original so existing devs can migrate with a single import change.
 
 ## Data Freshness
 
-Data is auto-refreshed weekly (every Monday) via GitHub Actions from [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts) (EN + CN + JP regions), which tracks every game patch within hours. The refresh pipeline:
+Data is auto-refreshed via GitHub Actions whenever [iujab/azurlane-images](https://github.com/iujab/azurlane-images) updates, with a weekly fallback (every Monday), from [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts) (EN + CN + JP regions), which tracks every game patch within hours. The refresh pipeline:
 1. Sparse-clones the upstream Lua scripts
 2. Converts the Lua config tables to JSON (`scripts/lua2json.py`, needs Python + `lupa`)
 3. Normalizes raw game tables into AzurAPI-compatible JSON
@@ -135,6 +135,7 @@ This is an **unofficial, non-commercial, community-maintained fan project**. It 
 
 ## Acknowledgments
 
-- [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData) — upstream auto-updating game data
+- [AzurLaneTools/AzurLaneLuaScripts](https://github.com/AzurLaneTools/AzurLaneLuaScripts) — upstream auto-updating game data
+- [AzurLaneTools/AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData) — original JSON data source (until 2026-05-08)
 - [nobbyfix/AzurLane-AssetDownloader](https://github.com/nobbyfix/AzurLane-AssetDownloader) — game asset extraction
 - [AzurAPI/azurapi-js](https://github.com/AzurAPI/azurapi-js) — the original library whose schema we replicate, and the base inspiration for this project!❤️
