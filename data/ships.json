@@ -50717,7 +50717,13 @@
       },
       {
         "name": "Femme Fatale's Bewitching Veil",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/yuekegongjue_5_n_rw.webp"
+        },
         "info": {
           "cost": 1050,
           "obtainedFrom": "Limited (Event)",
@@ -91672,7 +91678,14 @@
       },
       {
         "name": "Angel in the Devil's Mirror?",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/dashan_3_n_rw.webp"
+        },
         "info": {
           "cost": 880,
           "obtainedFrom": "Limited (Event)",
@@ -142225,7 +142238,13 @@
       },
       {
         "name": "Archangel of Wings Impure",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/qisheng_3_n_rw.webp"
+        },
         "info": {
           "cost": 1030,
           "obtainedFrom": "Limited (Event)",
@@ -144904,7 +144923,13 @@
       },
       {
         "name": "Seductive Wings of Dark Depravity",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/anninvwang_3_n_rw.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -145686,7 +145711,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960017.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/shuixinghao.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Merkuriy",
     "class": "Lyme",
     "hullType": "Sailing Frigate",
@@ -145840,7 +145865,14 @@
     "skins": [
       {
         "name": "Merkuriy",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -145848,7 +145880,14 @@
       },
       {
         "name": "Envoy Angel of Love",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/shuixinghao_2_bj.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -145871,7 +145910,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960018.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/tiejiaohao.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/J%C3%A1rnbar%C3%B0inn",
     "class": "Járnbarðinn",
     "hullType": "Sailing Frigate",
@@ -146018,7 +146057,15 @@
     "skins": [
       {
         "name": "Járnbarðinn",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_bj.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -146026,7 +146073,14 @@
       },
       {
         "name": "Fallen Angel Astray",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/tiejiaohao_2_bj.webp"
+        },
         "info": {
           "cost": 980,
           "obtainedFrom": "Limited (Event)",
@@ -146048,7 +146102,7 @@
       "stars": "★★★★★★",
       "value": 6
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960019.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/sailimiye.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Selimiye",
     "class": "Selimiye",
     "hullType": "Sailing Frigate",
@@ -146187,7 +146241,14 @@
     "skins": [
       {
         "name": "Selimiye",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -146195,7 +146256,13 @@
       },
       {
         "name": "Seer in a Bind",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/sailimiye_2_n_rw.webp"
+        },
         "info": {
           "cost": 1260,
           "obtainedFrom": "Limited (Event)",
@@ -146218,7 +146285,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960020.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/changshehao.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Ormrinn%20Langi",
     "class": "Ormrinn Langi",
     "hullType": "Sailing Frigate",
@@ -146366,7 +146433,14 @@
     "skins": [
       {
         "name": "Ormrinn Langi",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -146374,7 +146448,14 @@
       },
       {
         "name": "Pure-White Predator",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/changshehao_2_bj.webp"
+        },
         "info": {
           "cost": 780,
           "obtainedFrom": "Limited (Event)",
@@ -146396,7 +146477,7 @@
       "stars": "★★★★★",
       "value": 5
     },
-    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/960021.png",
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/leiyierbei.png",
     "wikiUrl": "https://azurlane.koumakan.jp/wiki/Riyala%20Bey",
     "class": "Riyala Bey",
     "hullType": "Sailing Frigate",
@@ -146535,7 +146616,14 @@
     "skins": [
       {
         "name": "Riyala Bey",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_n_rw.webp"
+        },
         "info": {
           "obtainedFrom": "Default",
           "enClient": "Yes"
@@ -146543,7 +146631,13 @@
       },
       {
         "name": "Angelic Idol☆in Training",
-        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2.webp",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/leiyierbei_2_n_rw.webp"
+        },
         "info": {
           "cost": 800,
           "obtainedFrom": "Limited (Event)",
