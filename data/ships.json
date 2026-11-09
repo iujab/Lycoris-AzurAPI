@@ -133449,7 +133449,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -133845,7 +133845,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -134813,7 +134813,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -135740,7 +135740,7 @@
       "availableIn": {
         "light": false,
         "heavy": false,
-        "aviation": false,
+        "aviation": true,
         "limited": true,
         "exchange": false
       }
@@ -141054,7 +141054,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
