@@ -169712,5 +169712,314 @@
         }
       }
     ]
+  },
+  "1180001": {
+    "id": "1180001",
+    "names": {
+      "en": "Liliel Angel Paratroopers/Ririsa",
+      "jp": "リリエル 天使空挺隊/リリサ",
+      "cn": "莉莉艾露 天使空降队/理理沙",
+      "code": "Liliel Angel Paratroopers/Ririsa"
+    },
+    "rarity": "Super Rare",
+    "stars": {
+      "stars": "★★★★★★",
+      "value": 6
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/lilisha.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Liliel%20Angel%20Paratroopers%2FRirisa",
+    "class": "LilielSH0",
+    "hullType": "Light Carrier",
+    "nationality": "Universal",
+    "stats": {
+      "level100": {
+        "health": 4374,
+        "firepower": 0,
+        "torpedo": 0,
+        "evasion": 58,
+        "antiwar": 228,
+        "aviation": 341,
+        "reload": 157,
+        "speed": 28,
+        "luck": 25,
+        "accuracy": 70
+      },
+      "level120": {
+        "health": 4833,
+        "firepower": 0,
+        "torpedo": 0,
+        "evasion": 66,
+        "antiwar": 249,
+        "aviation": 360,
+        "reload": 166,
+        "speed": 28,
+        "luck": 25,
+        "accuracy": 79
+      }
+    },
+    "enhanceValue": {
+      "firepower": 0,
+      "torpedo": 0,
+      "aviation": 72,
+      "reload": 48
+    },
+    "slots": [
+      {
+        "type": "Fighter",
+        "minEfficiency": 1.25,
+        "maxEfficiency": 1.45
+      },
+      {
+        "type": "Torpedo Bomber",
+        "minEfficiency": 1.35,
+        "maxEfficiency": 1.45
+      },
+      {
+        "type": "Anti-Air Gun",
+        "minEfficiency": 0.8,
+        "maxEfficiency": 0.8
+      }
+    ],
+    "skills": [
+      {
+        "color": "blue",
+        "names": {
+          "en": "Liliel's Healing"
+        },
+        "description": "Every 18s: restores 3.0% of the whole fleet's HP. During battle, if an allied ship receives a healing effect exceeding her Max HP: that ship receives [Liliel's Blessing] (reduces DMG taken by 5.0% until the end of battle).\nOnce per battle, when another allied ship falls below 20.0% HP as a result of DMG taken: restores 15.0% of that ship's Max HP, then grants [Liliel's Blessing] to all ships in the fleet except Liliel Angel Paratroopers/Ririsa; after this effect activates (once per battle), the HP restoration effect of this skill is disabled."
+      },
+      {
+        "color": "red",
+        "names": {
+          "en": "Liliel's Explosion"
+        },
+        "description": "At the start of battle, increases this ship's AVI by 10.0%. 5s after the start of battle: immediately readies 1 airstrike; whenever this ship launches an airstrike: launches an additional Lv.10 special attack (DMG is based on the skill's level and this ship's AVI stat)."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "All Fighters +1",
+        "Fighter efficiency +10%"
+      ],
+      [
+        "Hangar capacity +1",
+        "All Torpedo Bombers +1",
+        "Fighter efficiency +10%"
+      ],
+      [
+        "All aircraft +1",
+        "Torpedo Bomber efficiency +10%"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 1945,
+      "oil": 0,
+      "medal": 10
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: It's Showtime! Angels' Azur Stage"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Kaori Maeda"
+      }
+    },
+    "skins": [
+      {
+        "name": "Liliel Angel Paratroopers/Ririsa",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_n_rw.webp"
+        },
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Both in Heart and Mind",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/lilisha_2_bj.webp"
+        },
+        "info": {
+          "cost": 1000,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
+      }
+    ]
+  },
+  "1180002": {
+    "id": "1180002",
+    "names": {
+      "en": "Miriella Angel Paratroopers/Mikari",
+      "jp": "ミリエラ 天使空挺隊/美花莉",
+      "cn": "美莉艾拉 天使空降队/美花莉",
+      "code": "Miriella Angel Paratroopers/Mikari"
+    },
+    "rarity": "Super Rare",
+    "stars": {
+      "stars": "★★★★★★",
+      "value": 6
+    },
+    "thumbnail": "https://raw.githubusercontent.com/iujab/azurlane-images/main/thumbnails/jumeihuali.png",
+    "wikiUrl": "https://azurlane.koumakan.jp/wiki/Miriella%20Angel%20Paratroopers%2FMikari",
+    "class": "Mikari",
+    "hullType": "Light Cruiser",
+    "nationality": "Universal",
+    "stats": {
+      "level100": {
+        "health": 3877,
+        "firepower": 130,
+        "torpedo": 0,
+        "evasion": 111,
+        "antiwar": 300,
+        "aviation": 0,
+        "reload": 184,
+        "speed": 40,
+        "luck": 25,
+        "accuracy": 145
+      },
+      "level120": {
+        "health": 4296,
+        "firepower": 138,
+        "torpedo": 0,
+        "evasion": 126,
+        "antiwar": 327,
+        "aviation": 0,
+        "reload": 194,
+        "speed": 40,
+        "luck": 25,
+        "accuracy": 162
+      }
+    },
+    "enhanceValue": {
+      "firepower": 27,
+      "torpedo": 0,
+      "aviation": 0,
+      "reload": 56
+    },
+    "slots": [
+      {
+        "type": "Artillery (Light Cruiser)",
+        "minEfficiency": 1,
+        "maxEfficiency": 1.15
+      },
+      {
+        "type": "Artillery (Destroyer)",
+        "minEfficiency": 0.6,
+        "maxEfficiency": 0.65
+      },
+      {
+        "type": "Anti-Air Gun",
+        "minEfficiency": 1.15,
+        "maxEfficiency": 1.2
+      }
+    ],
+    "skills": [
+      {
+        "color": "red",
+        "names": {
+          "en": "Miriella's Shot"
+        },
+        "description": "At the start of battle, increases this ship's ACC and RLD by 15.0%. Every 12 times this ship fires her Main Guns: fires a Lv.10 special barrage (DMG is based on the skill's level).\nEvery 10s: fires a Lv.10 special barrage (DMG is based on the skill's level); enemies hit by this special barrage take 8.0% increased DMG from Miriella Angel Paratroopers/Mikari for 6s."
+      },
+      {
+        "color": "blue",
+        "names": {
+          "en": "Miriella's Resonance"
+        },
+        "description": "At the start of battle, increases this ship's EVA by 20.0%. When this ship hits an enemy with her Main Guns: 30.0% chance to increase this ship's FP by 5.0% until the end of battle (can be stacked up to 3 times). When this ship takes DMG: 30.0% chance to reduce this ship's DMG taken by 20.0% for 5s (10s cooldown between activations)."
+      }
+    ],
+    "limitBreaks": [
+      [
+        "Main gun efficiency +5%"
+      ],
+      [
+        "Main gun base +1",
+        "Main gun efficiency +5%"
+      ],
+      [
+        "All weapons' efficiency +5%"
+      ]
+    ],
+    "construction": {
+      "availableIn": {
+        "light": false,
+        "heavy": false,
+        "aviation": false,
+        "limited": true,
+        "exchange": false
+      }
+    },
+    "scrapValue": {
+      "coin": 1700,
+      "oil": 0,
+      "medal": 10
+    },
+    "obtainedFrom": {
+      "obtainedFrom": "Event: It's Showtime! Angels' Azur Stage"
+    },
+    "retrofit": false,
+    "misc": {
+      "voice": {
+        "name": "Akari Kito"
+      }
+    },
+    "skins": [
+      {
+        "name": "Miriella Angel Paratroopers/Mikari",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_n_rw.webp"
+        },
+        "info": {
+          "obtainedFrom": "Default",
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "For My Lucky Star",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/jumeihuali_2_bj.webp"
+        },
+        "info": {
+          "cost": 1000,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
+      }
+    ]
   }
 }

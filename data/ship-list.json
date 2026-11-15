@@ -5362,5 +5362,17 @@
     "name": "2B",
     "hullType": "Light Cruiser",
     "rarity": "Super Rare"
+  },
+  {
+    "id": "1180001",
+    "name": "Liliel Angel Paratroopers/Ririsa",
+    "hullType": "Light Carrier",
+    "rarity": "Super Rare"
+  },
+  {
+    "id": "1180002",
+    "name": "Miriella Angel Paratroopers/Mikari",
+    "hullType": "Light Cruiser",
+    "rarity": "Super Rare"
   }
 ]
