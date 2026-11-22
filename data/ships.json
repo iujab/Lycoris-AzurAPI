@@ -18250,6 +18250,23 @@
           "obtainedFrom": "Limited (Event)",
           "enClient": "Yes"
         }
+      },
+      {
+        "name": "Intimate Midnight Shift",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_rw.webp",
+          "uncensored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_n.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/xinaoerliang_3_bj.webp"
+        },
+        "info": {
+          "cost": 1030,
+          "obtainedFrom": "Limited (Event)",
+          "enClient": "Yes"
+        }
       }
     ]
   },
@@ -69807,7 +69824,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -71406,7 +71423,7 @@
     ],
     "construction": {
       "availableIn": {
-        "light": false,
+        "light": true,
         "heavy": false,
         "aviation": false,
         "limited": true,
@@ -77942,8 +77959,8 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
-        "aviation": false,
+        "heavy": true,
+        "aviation": true,
         "limited": true,
         "exchange": false
       }
@@ -82459,7 +82476,7 @@
     "construction": {
       "availableIn": {
         "light": false,
-        "heavy": false,
+        "heavy": true,
         "aviation": false,
         "limited": true,
         "exchange": false
@@ -123495,6 +123512,22 @@
           "live2dModel": true,
           "enClient": "Yes"
         }
+      },
+      {
+        "name": "Lost White Bird",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/nabulesi_3_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/nabulesi_3_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/nabulesi_3.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/nabulesi_3_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/nabulesi_3_n_rw.webp"
+        },
+        "info": {
+          "cost": 1180,
+          "obtainedFrom": "Limited (Event)",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
       }
     ]
   },
@@ -135827,6 +135860,23 @@
         "info": {
           "cost": 1180,
           "obtainedFrom": "Skin Shop",
+          "live2dModel": true,
+          "enClient": "Yes"
+        }
+      },
+      {
+        "name": "Angel in White Beneath Clear Skies",
+        "image": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4_rw.webp",
+        "images": {
+          "default": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4_rw.webp",
+          "censored": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4.webp",
+          "censored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4_rw.webp",
+          "uncensored_nobg": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4_n_rw.webp",
+          "background": "https://raw.githubusercontent.com/iujab/azurlane-images/main/paintings/banerwei_4_bj.webp"
+        },
+        "info": {
+          "cost": 980,
+          "obtainedFrom": "Limited (Event)",
           "live2dModel": true,
           "enClient": "Yes"
         }
